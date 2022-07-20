@@ -21,9 +21,10 @@ export default {
 
 <style scoped>
 #about{
-    background: #1f1f1f;
+    background: green;
     /* color: #E5E5E5; */
     color: white;
     height: 50vh;
+    background-attachment: fixed;
 }
 </style>

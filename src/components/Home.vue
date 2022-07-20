@@ -16,8 +16,10 @@
 <style scoped>
 #home {
   background: #1f1f1f;
+  /* background-image: url('../assets/images/road.png'); */
   color: white;
   height: 100vh;
+  /* background-attachment: fixed; */
 }
 #home #text-in-middle {
   padding: 260px 0 0 0;
