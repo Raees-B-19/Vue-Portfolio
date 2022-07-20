@@ -13,8 +13,8 @@
               <div class="card m-3 p-3">
                 <img :src="project.image" class="card-img-top" alt="..." />
                 <div class="overlay">
-                  <h2>Hello</h2>
-                  <p>by hengs</p>
+                  <i class="bi bi-github"></i>
+                  <i class="bi bi-github"></i>
                 </div>
                 <!-- <div class="card-body">
                 <h5 class="card-title">{{ project.projectName }}</h5>
@@ -77,11 +77,20 @@ export default {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: #008cba;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #e5e5e5;
+  display: inline-block;
   overflow: hidden;
-  transition: 0.5s;
+  font-size: 30px;
+  padding: 160px 0 0 0;
+  transition: 0.6s;
+  opacity: 0;
+}
+.pic .overlay i {
+  padding: 0 25px;
 }
 .pic:hover .overlay {
+  opacity: 1;
   width: 100%;
 }
 </style>
