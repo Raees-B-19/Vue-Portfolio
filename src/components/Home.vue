@@ -1,27 +1,43 @@
 <template>
   <section id="home">
-    <h1>Home</h1>
-    <!-- <div v-if="home">
-      <div v-for="pic in home" :key="pic"> -->
-        <img :src="this.$store.state.portfolioUrl" alt="" width="200" height="200" />
-      <!-- </div>
+    <!-- <h1>Home</h1> -->
+    <div id="text-in-middle">
+      <transition name="fade" appear>
+        <h1>Ra'ees Benny</h1>
+      </transition>
+      <transition name="left">
+        <h2>Web</h2>
+      </transition>
     </div>
-    <div v-else>No data</div> -->
   </section>
 </template>
 <script>
-// export default {
-//   computed: {
-//     home() {
-//       return this.$store.state.image;
-//     },
-//   },
-// };
 </script>
 <style scoped>
 #home {
   background: #1f1f1f;
   color: white;
   height: 100vh;
+}
+#home #text-in-middle {
+  padding: 260px 0 0 0;
+}
+.fade-enter-from {
+  transform: scale(0);
+}
+.fade-enter-to {
+  /* transform: scale(0); */
+  opacity: 1;
+}
+.fade-enter-active {
+  transition: all 0.7s ease;
+}
+.left-enter-from {
+  transform: scaleX(-1500px);
+}
+.left-enter-to {
+  transform: scaleX(-20px);
+}
+.left-enter-active {
 }
 </style>

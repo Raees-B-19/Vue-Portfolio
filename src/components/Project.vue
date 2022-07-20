@@ -38,4 +38,13 @@ export default {
   color: grey;
   height: 100vh;
 }
+#projects img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+#projects p{
+    max-height: 70px;
+    overflow-y: auto;
+}
 </style>
