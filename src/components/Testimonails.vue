@@ -43,4 +43,12 @@ export default {
   color: black;
   height: max-content;
 }
+#testimonails img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#testimonial .card{
+ width: 100px;
+}
 </style>

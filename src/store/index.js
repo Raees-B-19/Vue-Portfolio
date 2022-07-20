@@ -48,23 +48,23 @@ export default createStore({
       ],
       testimonails:[
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          name: 'Hello There',
+          image:'https://i.postimg.cc/L6RckKyP/Charles.jpg',
+          name: 'Abdus Samad Charles',
           aboutMe:'My passion for computers started when I was 12 years old.I have learnt the knowledge to build a computer and I am still learning more about each component.'
         },
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          name: 'Hello There',
+          image:'https://i.postimg.cc/JnLxwmHc/Mashalino.jpg',
+          name: 'Mashalino',
           aboutMe:'My passion for computers started when I was 12 years old.I have learnt the knowledge to build a computer and I am still learning more about each component.'
         },
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          name: 'Hello There',
+          image:'https://i.postimg.cc/QC6JWT40/Ridhaa.jpg',
+          name: 'Ridhaa',
           aboutMe:'My passion for computers started when I was 12 years old.I have learnt the knowledge to build a computer and I am still learning more about each component.'
         },
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          name: 'Hello There',
+          image:'https://i.postimg.cc/Df5gN9vL/Saleem.jpg',
+          name: 'Saleem',
           aboutMe:'My passion for computers started when I was 12 years old.I have learnt the knowledge to build a computer and I am still learning more about each component.'
         }
       ]
