@@ -4,12 +4,12 @@
     <div v-if="testimonails">
       <div class="container">
         <div class="row">
-              <div class="card m-3 p-3" v-for="testimonail in testimonails" :key="testimonail" style="width: 18rem">
+              <div class="card m-3" v-for="testimonail in testimonails" :key="testimonail" style="width: 18rem">
                 <img :src="testimonail.image" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">{{ testimonail.name }}</h5>
                   <p class="card-text">{{ testimonail.aboutMe }}.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
               </div>
             </div>
           </div>
