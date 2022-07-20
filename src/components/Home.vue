@@ -11,8 +11,7 @@
     </div>
   </section>
 </template>
-<script>
-</script>
+<script></script>
 <style scoped>
 #home {
   background: #1f1f1f;

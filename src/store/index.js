@@ -22,6 +22,16 @@ export default createStore({
         },
         {
           image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
+          projectName:'html',
+          aboutProject: 'This is a project When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.'
+        },
+        {
+          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
+          projectName:'html',
+          aboutProject: 'This is a project When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.'
+        },
+        {
+          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
           projectName:'Js',
           aboutProject: 'This is a 2222222t'
         },
