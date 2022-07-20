@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div
-            class="col-xl-3 col-md-6"
+            class="col-lg-4 col-md-4"
             v-for="testimonail in testimonails"
             :key="testimonail"
           >

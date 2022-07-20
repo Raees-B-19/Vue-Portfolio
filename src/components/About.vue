@@ -26,6 +26,7 @@ export default {
     color: white;
     height: max-content;
     background-attachment: fixed;
+    padding: 0 0 10px 0;
 }
 #about p{
     text-align: center;

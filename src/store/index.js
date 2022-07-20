@@ -16,33 +16,33 @@ export default createStore({
       ],
       projects:[
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          projectName:'html',
+          image:'https://i.postimg.cc/zX9QGs96/Pokedex.png',
+          projectName:'Pokedex Api',
           aboutProject: 'This is a project When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.'
         },
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          projectName:'html',
+          image:'https://i.postimg.cc/tTM5mPbw/Property-Listing.png',
+          projectName:'Property Listing',
           aboutProject: 'This is a project When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.'
         },
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          projectName:'html',
+          image:'https://i.postimg.cc/506G0f2c/TodoApp.png',
+          projectName:'TodoApp',
           aboutProject: 'This is a project When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.'
         },
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          projectName:'Js',
+          image:'https://i.postimg.cc/MG8KVrjr/Bmi-Calculator.png',
+          projectName:'Bmi-Calculator',
           aboutProject: 'This is a 2222222t'
         },
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          projectName:'Css',
+          image:'https://i.postimg.cc/qBKbZbtG/Swegga.png',
+          projectName:'Swegga',
           aboutProject: 'This is a project4444444444444444444'
         },
         {
-          image:'https://i.postimg.cc/Fs9sBMTW/Raeesedit.png',
-          projectName:'Css',
+          image:'https://i.postimg.cc/VN549DQn/Temp-Calculator.png',
+          projectName:'Temperature Converter',
           aboutProject: 'This is a project4444444444444444444'
         }
       ],
