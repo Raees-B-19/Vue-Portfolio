@@ -5,6 +5,8 @@
   <main>
     <Home />
     <About />
+    <Projects />
+    <Testimonails />
   </main>
   <footer>
     <Footer />
@@ -14,6 +16,8 @@
 import NavBar from "../components/NavBar.vue";
 import Home from "../components/Home.vue";
 import About from "../components/About.vue";
+import Projects from "../components/Project.vue";
+import Testimonails from "../components/Testimonails.vue";
 import Footer from "../components/Footer.vue";
 
 export default {
@@ -21,6 +25,8 @@ export default {
     NavBar,
     Home,
     About,
+    Projects,
+    Testimonails,
     Footer,
   },
 };
