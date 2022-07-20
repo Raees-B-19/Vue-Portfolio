@@ -6,7 +6,7 @@
         <h1>Ra'ees Benny</h1>
       </transition>
       <transition name="left">
-        <h2>Web</h2>
+        <h2>Web Developer</h2>
       </transition>
     </div>
   </section>
@@ -35,11 +35,9 @@
   transition: all 0.7s ease;
 }
 .left-enter-from {
-  transform: scaleX(-1500px);
-}
-.left-enter-to {
-  transform: scaleX(-20px);
+  transform: scaleX(1500px);
 }
 .left-enter-active {
+  transition: all 0.7s ease;
 }
 </style>
