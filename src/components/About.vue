@@ -24,7 +24,11 @@ export default {
     background: green;
     /* color: #E5E5E5; */
     color: white;
-    height: 50vh;
+    height: max-content;
     background-attachment: fixed;
+}
+#about p{
+    text-align: center;
+    padding: 0 20px;
 }
 </style>

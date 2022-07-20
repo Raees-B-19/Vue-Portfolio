@@ -4,16 +4,24 @@
     <div v-if="testimonails">
       <div class="container">
         <div class="row">
-              <div class="card m-3" v-for="testimonail in testimonails" :key="testimonail" style="width: 18rem">
-                <img :src="testimonail.image" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">{{ testimonail.name }}</h5>
-                  <p class="card-text">{{ testimonail.aboutMe }}.</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <div
+            class="col-xl-3 col-md-6"
+            v-for="testimonail in testimonails"
+            :key="testimonail"
+          >
+            <div class="card m-3">
+              <img
+                :src="testimonail.image"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">{{ testimonail.name }}</h5>
+                <p class="card-text">{{ testimonail.aboutMe }}.</p>
               </div>
             </div>
           </div>
-        <!-- </div> -->
+        </div>
       </div>
     </div>
     <div v-else>No testimonails</div>
@@ -33,6 +41,6 @@ export default {
 #testimonails {
   background: #1f1f1f;
   color: black;
-  height: 100vh;
+  height: max-content;
 }
 </style>
