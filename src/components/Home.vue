@@ -19,6 +19,7 @@
   color: white;
   height: 100vh;
   /* background-attachment: fixed; */
+  border: 10px solid #e5e5e5;
 }
 #home #text-in-middle {
   padding: 260px 0 0 0;

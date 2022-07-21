@@ -3,7 +3,7 @@
     <h1>Contact Me</h1>
     <div class="container">
       <div class="row">
-        <div class="col-md-6" id="form">
+        <div class="col-md-12" id="form">
           <form
             action="https://formspree.io/f/meqnyaeg"
             method="POST"
@@ -11,7 +11,7 @@
           >
             <div class="row">
               <div class="col-md-6">
-                <div class="mb-3">
+                <div class="mx-5 mb-3">
                   <label for="exampleFormControlInput1" class="form-label"
                     >Name</label
                   >
@@ -25,7 +25,7 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="mb-3">
+                <div class="mx-5 mb-3">
                   <label for="exampleFormControlInput1" class="form-label"
                     >Email address</label
                   >
@@ -38,7 +38,7 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="mb-3">
+                <div class="mx-5 mb-3">
                   <label for="exampleFormControlInput1" class="form-label"
                     >Subject</label
                   >
@@ -51,7 +51,7 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="mb-3">
+                <div class="mx-5 mb-3">
                   <label for="exampleFormControlInput1" class="form-label"
                     >Telephone</label
                   >
@@ -65,7 +65,7 @@
                 </div>
               </div>
               <div class="col-md-12">
-                <div class="mb-3">
+                <div class="mx-5 mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label"
                     >Example textarea</label
                   >
@@ -82,18 +82,26 @@
             </div>
           </form>
         </div>
-        <div class="col-md-6" id="icons">
+        <!-- <div class="col-md-6" id="icons">
           <i class="bi bi-github"></i>
           <i class="bi bi-linkedin"></i>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 </template>
 <style scoped>
-/* #contact{
-  
-} */
+#contact{
+  background: #1f1f1f;
+  scroll-margin: 45px;
+  border: 10px solid #e5e5e5;
+  padding: 10px 0;
+  height: 77vh;
+  color: #e5e5e5;
+}
+#contact h1{
+  padding: 30px 0;
+}
 #icons {
   font-size: 50px;
 }

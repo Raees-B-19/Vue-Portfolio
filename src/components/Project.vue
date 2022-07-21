@@ -40,9 +40,11 @@ export default {
 <style scoped>
 #projects {
   background: #1f1f1f;
-  color: grey;
+  color: #e5e5e5;
   padding: 0 0 10px 0;
+  border: 10px solid #e5e5e5;
   /* height: 100vh; */
+  scroll-margin: 50px;
 }
 #projects .card {
   background-color: pink;

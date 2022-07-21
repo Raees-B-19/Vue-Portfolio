@@ -43,6 +43,8 @@ export default {
   background: #1f1f1f;
   color: black;
   height: max-content;
+  border: 10px solid #e5e5e5;
+  scroll-margin: 50px;
 }
 #testimonails img{
   width: 200px;
