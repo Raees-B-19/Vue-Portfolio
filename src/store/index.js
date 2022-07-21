@@ -6,13 +6,13 @@ export default createStore({
     portfolioUrl: "https://i.postimg.cc/D0wMC1XV/Raees.jpg",
     about: [
       {
-        p: "I am a humble person. I believe that respect is earned through time, hard work, and trust in order to have respect not only for the people close to you but for everyone that you meet. I am a hard worker who wants to get the job done as simply as possible and with the best quality.",
+        p: "I am a humble person. In order to have respect for everyone you encounter as well as for the ones nearest to you, I believe respect must be earned through time, effort, and trust. I am a hard worker who seeks to complete tasks feasibly and effectively.",
       },
       {
-        p: "My passion for computers started when I was 12 years old.I have learnt the knowledge to build a computer and I am still learning more about each component.",
+        p: "My fascination with computers began when I was 12 years old. I've learned how to build a computer and am continuously learning about each component.",
       },
       {
-        p: "When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.",
+        p: "I applied to LifeChoices to gain coding experience and to strengthen my computer knowledge."
       },
     ],
     projects: [
@@ -76,7 +76,7 @@ export default createStore({
         image: "https://i.postimg.cc/QC6JWT40/Ridhaa.jpg",
         name: "Ridhaa",
         aboutMe:
-          "He is a very friendly person and he is a very good web developer. He is very creative, and hard-working and will do everything to the best of his ability. Raees is a great person to be around and would be a great person to have on your team.",
+          "He is a very friendly person and he is a very good web developer. He is very creative, and hard-working and will do everything to the best of his ability. Ra'ees is a great person to be around and would be a great person to have on your team.",
         level: "Colleague / Peer",
       },
       {
@@ -84,6 +84,13 @@ export default createStore({
         name: "Saleem",
         aboutMe:
           "Ra'ees is a hard worker , He is able  to solve any problem that he faces with full determination and dedication amongst other qualities and it is presented in his work. He goes out of his way to help others where needed.",
+        level: "Colleague / Peer",
+      },
+      {
+        image: "https://i.postimg.cc/Df5gN9vL/Saleem.jpg",
+        name: "Liam",
+        aboutMe:
+          "Ra'ees is a great guy to work with. My experience with him the work place is pleasant. He is always working hard and willing to help others.",
         level: "Colleague / Peer",
       },
     ],
