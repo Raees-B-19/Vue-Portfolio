@@ -35,7 +35,7 @@
           </li>
           <li class="nav-item">
             <div @click="changeTheme">
-              <i class="bi " :class="{ 'bi-brightness-high': dark, 'bi-moon': !dark }"></i>
+              <i class="bi nav-link" :class="{ 'bi-brightness-high': dark, 'bi-moon': !dark }"></i>
             </div>
           </li>
         </ul>
