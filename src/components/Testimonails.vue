@@ -45,6 +45,7 @@ export default {
   height: max-content;
   border: 10px solid #e5e5e5;
   scroll-margin: 50px;
+  padding: 30px 0;
 }
 #testimonails img{
   width: 200px;
@@ -53,5 +54,9 @@ export default {
 }
 #testimonial .card{
  width: 100px;
+ color: #1f1f1f;
+}
+#testimonial h1{
+  color: #e5e5e5;
 }
 </style>
