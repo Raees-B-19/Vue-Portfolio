@@ -48,10 +48,11 @@ export default {
 }
 #projects .card {
   background-color: pink;
+  border-radius: 30px;
   /* width: ; */
 }
 #projects img {
-  /* border-radius: 50%; */
+  border-radius: 30px;
   height: 350px;
   object-fit: cover;
 }
@@ -85,6 +86,7 @@ export default {
   overflow: hidden;
   font-size: 30px;
   padding: 160px 0 0 0;
+  border-radius: 30px;
   transition: 0.6s;
   opacity: 0;
 }

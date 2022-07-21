@@ -102,7 +102,4 @@
 #contact h1{
   padding: 30px 0;
 }
-#icons {
-  font-size: 50px;
-}
 </style>

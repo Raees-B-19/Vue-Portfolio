@@ -98,6 +98,8 @@ export default {
   height: 500px;
   object-fit: cover;
   /* object-position: 0 -60px; */
+  object-position: -35.8px 0px;
   border-radius: 30px;
+  border: 7px solid #E5E5E5;
 }
 </style>

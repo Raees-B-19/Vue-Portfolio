@@ -9,16 +9,20 @@
             v-for="testimonail in testimonails"
             :key="testimonail"
           >
-            <div class="card m-3">
-              <img
-                :src="testimonail.image"
-                class="card-img-top img-fluid"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">{{ testimonail.name }}</h5>
-                <p class="card-text"><strong>{{ testimonail.aboutMe }}</strong></p>
-                <p class="card-text">{{ testimonail.level }}</p>
+            <div class="row" id="test-info">
+              <div class="col-md-6">
+                <img
+                  :src="testimonail.image"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6" id="testimonail-info">
+                <h5>{{ testimonail.name }}</h5>
+                <p>
+                  <strong>{{ testimonail.aboutMe }}</strong>
+                </p>
+                <p>{{ testimonail.level }}</p>
               </div>
             </div>
           </div>
@@ -47,16 +51,22 @@ export default {
   scroll-margin: 50px;
   padding: 30px 0;
 }
-#testimonails img{
+#testimonail #test-info{
+  background: #e5e5e5 !important;
+}
+#testimonails img {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
-#testimonial .card{
- width: 100px;
- color: #1f1f1f;
+#testimonail-info{
+  background-color: #e5e5e5 !important;
 }
-#testimonial h1{
+#testimonial .card {
+  width: 100px;
+  color: #1f1f1f;
+}
+#testimonial h1 {
   color: #e5e5e5;
 }
 </style>
