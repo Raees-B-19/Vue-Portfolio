@@ -1,6 +1,6 @@
 <template>
   <section id="projects">
-    <h1>Projetcs</h1>
+    <h1>Projects</h1>
     <div v-if="projects">
       <div class="container">
         <div class="row">
@@ -11,7 +11,11 @@
           >
             <div class="pic">
               <div class="card m-3 p-3">
-                <img :src="project.image" class="card-img-top" alt="..." />
+                <img
+                  :src="project.image"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
                 <div class="overlay">
                   <i class="bi bi-github"></i>
                   <i class="bi bi-github"></i>
@@ -47,12 +51,17 @@ export default {
   scroll-margin: 50px;
 }
 #projects .card {
-  background-color: pink;
+  /* background-color: pink; */
+  border: 2px solid #e5e5e5;
   border-radius: 30px;
   /* width: ; */
 }
+#projects h1 {
+  padding: 30px 0;
+}
 #projects img {
   border-radius: 30px;
+  border: 7px solid #1f1f1f;
   height: 350px;
   object-fit: cover;
 }
@@ -65,7 +74,7 @@ export default {
 }
 
 .pic img {
-  border: 2px solid #fff;
+  border: 2px solid #e5e5e5;
   position: relative;
   height: 100%;
   width: 100%;

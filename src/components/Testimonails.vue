@@ -1,6 +1,6 @@
 <template>
   <section id="testimonails">
-    <h1>Test</h1>
+    <h1>Testimonails</h1>
     <div v-if="testimonails">
       <div class="container">
         <div class="row">
@@ -51,22 +51,23 @@ export default {
   scroll-margin: 50px;
   padding: 30px 0;
 }
-#testimonail #test-info{
-  background: #e5e5e5 !important;
+#testimonials h1 {
+  color: #e5e5e5;
+  padding: 30px 0;
 }
 #testimonails img {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
-#testimonail-info{
+#testimonail #test-info {
+  background: #e5e5e5 !important;
+}
+#testimonail-info {
   background-color: #e5e5e5 !important;
 }
 #testimonial .card {
   width: 100px;
   color: #1f1f1f;
-}
-#testimonial h1 {
-  color: #e5e5e5;
 }
 </style>
