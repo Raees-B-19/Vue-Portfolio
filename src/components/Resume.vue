@@ -29,22 +29,24 @@
         <div class="col-md-3">
           <i class="fa-brands fa-js icons"></i>
         </div>
+        <div class="col-md-3"></div>
         <div class="col-md-3">
           <i class="fa-brands fa-vuejs icons"></i>
         </div>
         <div class="col-md-3">
           <i class="fa fa-database icons" aria-hidden="true"></i>
         </div>
+        <div class="col-md-3"></div>
       </div>
       <div class="row">
         <h2>Software and Platforms</h2>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <i class="bi bi-github icons"></i>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <ion-icon name="logo-firebase" class="icons"></ion-icon>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <i class="fa-brands fa-windows icons"></i>
         </div>
       </div>
@@ -62,8 +64,7 @@
 </script>
 <style scoped>
 .icons{
-    padding: 20px 0;
-    font-size: 5em;
-    border-radius: ;
+    margin: 10px;
+    font-size: 80px;
 }
 </style>
