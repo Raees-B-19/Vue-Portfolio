@@ -15,56 +15,55 @@ export default createStore({
         p: "I applied to LifeChoices to gain coding experience and to strengthen my computer knowledge.",
       },
     ],
-    resume: [
-      { name:'pop',
-        softSkills: [
-          {
-            skill:'Can Work In a Team'
-          },
-          {
-            skill:'Organised'
-          },
-          {
-            skill:'Easy To Talk To'
-          },
-          {
-            skill:'Good Time Management'
-          },
-        ],
-      },
-      {
-        technical:[
-          {
-            icon:'https://i.postimg.cc/q7s3spH0/VsCode.png',
-            skill:'Visual Studio Code'
-          },
-          {
-            icon:'<i class="fa-brands fa-html5"></i>',
-            skill:'Html'
-          },
-          {
-            icon:'<i class="fa-brands fa-css3-alt"></i>',
-            skill:'Css'
-          },
-          {
-            icon:'<i class="fa-brands fa-bootstrap"></i>',
-            skill:'Bootstrap'
-          },
-          {
-            icon:'<i class="fa-brands fa-js"></i>',
-            skill:'Javascipt'
-          },
-          {
-            icon:'<i class="fa-brands fa-vuejs"></i>',
-            skill:'Vue Js'
-          },
-          {
-            icon:'https://i.postimg.cc/g0VYSJ0S/Mysql.png',
-            skill:'MySql'
-          },
-        ]
-      }
-    ],
+    // resume: [
+    //   { name:'pop',
+    //     softSkills: [
+    //       {
+    //         skill:'Can Work In a Team'
+    //       },
+    //       {
+    //         skill:'Organised'
+    //       },
+    //       {
+    //         skill:'Easy To Talk To'
+    //       },
+    //       {
+    //         skill:'Good Time Management'
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     technical:[
+    //       {
+    //         skill:'Visual Studio Code'
+    //       },
+    //       {
+    //         icon:'<i class="fa-brands fa-html5"></i>',
+    //         skill:'Html'
+    //       },
+    //       {
+    //         icon:'<i class="fa-brands fa-css3-alt"></i>',
+    //         skill:'Css'
+    //       },
+    //       {
+    //         icon:'<i class="fa-brands fa-bootstrap"></i>',
+    //         skill:'Bootstrap'
+    //       },
+    //       {
+    //         icon:'<i class="fa-brands fa-js"></i>',
+    //         skill:'Javascipt'
+    //       },
+    //       {
+    //         icon:'<i class="fa-brands fa-vuejs"></i>',
+    //         skill:'Vue Js'
+    //       },
+    //       {
+    //         icon:'<i class="fa fa-database" aria-hidden="true"></i>',
+    //         skill:'MySql'
+    //       },
+    //     ]
+    //   }
+    // ],
     projects: [
       {
         image: "https://i.postimg.cc/zX9QGs96/Pokedex.png",
