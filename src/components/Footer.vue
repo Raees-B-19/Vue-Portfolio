@@ -8,7 +8,6 @@
         </div>
         <div class="col-md-12">
           <h5>Copyright&copy {{ currentYear }} Ra'ees Benny</h5>
-          <h5>Copyright&copy {{ currentYear }} Ra'ees Benny</h5>
         </div>
       </div>
     </div>

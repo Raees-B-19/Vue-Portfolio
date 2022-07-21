@@ -5,6 +5,7 @@
   <main>
     <Home />
     <About />
+    <Resume />
     <Projects />
     <Testimonails />
     <Contact />
@@ -17,6 +18,7 @@
 import NavBar from "../components/NavBar.vue";
 import Home from "../components/Home.vue";
 import About from "../components/About.vue";
+import Resume from "../components/Resume.vue";
 import Projects from "../components/Project.vue";
 import Testimonails from "../components/Testimonails.vue";
 import Contact from "../components/Contact.vue";
@@ -27,6 +29,7 @@ export default {
     NavBar,
     Home,
     About,
+    Resume,
     Projects,
     Testimonails,
     Contact,
@@ -34,4 +37,3 @@ export default {
   },
 };
 </script>
-
