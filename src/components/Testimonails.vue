@@ -22,7 +22,7 @@
                 <p id="aboutMe">
                   <strong>{{ testimonail.aboutMe }}</strong>
                 </p>
-                <p>{{ testimonail.level }}</p>
+                <p>{{ testimonail.position }}</p>
               </div>
             </div>
           </div>

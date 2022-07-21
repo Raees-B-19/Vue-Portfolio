@@ -94,7 +94,7 @@
 #contact{
   background: #1f1f1f;
   scroll-margin: 45px;
-  border: 10px solid #e5e5e5;
+  border: 10px solid #59CBE8;
   padding: 10px 0;
   height: 77vh;
   color: #e5e5e5;

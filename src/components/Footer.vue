@@ -45,7 +45,7 @@ export default {
   color: #e5e5e5;
   /* padding: 0 0 10px 0; */
   padding: 30px 0;
-  border: 10px solid #e5e5e5;
+  border: 10px solid #59CBE8;
   height: 20vh;
 }
 .icon-size{

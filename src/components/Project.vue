@@ -46,7 +46,7 @@ export default {
   background: #1f1f1f;
   color: #e5e5e5;
   padding: 0 0 10px 0;
-  border: 10px solid #e5e5e5;
+  border: 10px solid #59CBE8;
   /* height: 100vh; */
   scroll-margin: 50px;
 }

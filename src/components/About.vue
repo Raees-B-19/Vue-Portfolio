@@ -85,7 +85,7 @@ export default {
   background-attachment: fixed;
   padding: 30px 0;
   scroll-margin: 50px;
-  border: 10px solid #e5e5e5;
+  border: 10px solid #59CBE8;
 }
 #about h1{
   padding: 30px  0;

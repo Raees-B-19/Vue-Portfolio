@@ -16,7 +16,7 @@
 #home {
   background: #1f1f1f;
   /* background-image: url('../assets/images/road.png'); */
-  color: white;
+  color: #59CBE8;
   height: 100vh;
   /* background-attachment: fixed; */
   border: 10px solid #e5e5e5;
