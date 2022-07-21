@@ -9,7 +9,7 @@
             v-for="testimonail in testimonails"
             :key="testimonail"
           >
-            <div class="row" id="test-info">
+            <div class="row row-test m-3">
               <div class="col-md-6">
                 <img
                   :src="testimonail.image"
@@ -17,9 +17,9 @@
                   alt="..."
                 />
               </div>
-              <div class="col-md-6" id="testimonail-info">
+              <div class="col-md-6">
                 <h5>{{ testimonail.name }}</h5>
-                <p>
+                <p id="aboutMe">
                   <strong>{{ testimonail.aboutMe }}</strong>
                 </p>
                 <p>{{ testimonail.level }}</p>
@@ -51,20 +51,32 @@ export default {
   scroll-margin: 50px;
   padding: 30px 0;
 }
-#testimonials h1 {
-  color: #e5e5e5;
+h1{
+  color: #e5e5e5 !important;
   padding: 30px 0;
 }
 #testimonails img {
+  padding: 10px 0 0 0;
   width: 200px;
   height: 200px;
   object-fit: cover;
+  border-radius: 30px;
 }
-#testimonail #test-info {
+.row-test {
   background: #e5e5e5 !important;
+  padding: 3px !important;
+  border-radius: 30px;
+  height: fit-content;
 }
-#testimonail-info {
-  background-color: #e5e5e5 !important;
+.row-test h5{
+  padding: 0 0 10px 0;
+  font-size: 30px;
+  text-decoration: underline;
+}
+#aboutMe{
+  height: 18vh;
+  overflow: hidden;
+  overflow-y: auto;
 }
 #testimonial .card {
   width: 100px;

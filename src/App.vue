@@ -1,5 +1,5 @@
 <template>
-<HomeView/>
+  <HomeView />
   <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
@@ -7,13 +7,13 @@
   <router-view/> -->
 </template>
 <script>
-import HomeView from './views/HomeView.vue'
+import HomeView from "./views/HomeView.vue";
 
 export default {
-  components:{
-    HomeView
-  }
-}
+  components: {
+    HomeView,
+  },
+};
 </script>
 
 <style>
@@ -24,7 +24,18 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
+::-webkit-scrollbar {
+  width: 13px;
+  background-color: #E5E5E5;
+}
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+  border-radius: 10px;
+}
 /* nav {
   padding: 30px;
 }

@@ -60,7 +60,7 @@ export default createStore({
       },
       {
         image: "https://i.postimg.cc/L6RckKyP/Charles.jpg",
-        name: "Abdus Samad Charles",
+        name: "Abdus",
         aboutMe:
           "Ra'ees is an inquisitive person whose thirst for knowledge is second  to none.He's always eager to learn new things and use what he learned to assist others.",
         level: "Colleague / Peer",
