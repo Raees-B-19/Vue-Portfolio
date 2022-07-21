@@ -17,7 +17,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">{{ testimonail.name }}</h5>
-                <p class="card-text">{{ testimonail.aboutMe }}.</p>
+                <p class="card-text"><strong>{{ testimonail.aboutMe }}</strong></p>
               </div>
             </div>
           </div>
