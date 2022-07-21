@@ -78,7 +78,8 @@ export default {
 
 <style scoped>
 #about {
-  background: #1f1f1f;
+  /* background: #1f1f1f; */
+  background: var(--background-color);
   color: #E5E5E5;
   height: max-content;
   background-attachment: fixed;

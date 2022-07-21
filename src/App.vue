@@ -36,6 +36,18 @@ export default {
   background: #1f1f1f;
   border-radius: 10px;
 }
+/* Background */
+:root{
+  --background-color: white;
+  --text-color: black;
+}
+.dark-theme{
+  --background-color: black;
+  --text-color: white;
+}
+h1{
+  color:var(--text-color) !important;
+}
 /* nav {
   padding: 30px;
 }
