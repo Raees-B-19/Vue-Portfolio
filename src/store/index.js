@@ -87,7 +87,7 @@ export default createStore({
         level: "Colleague / Peer",
       },
       {
-        image: "https://i.postimg.cc/Df5gN9vL/Saleem.jpg",
+        image: "https://i.postimg.cc/0jWJ2cG3/Liam.png",
         name: "Liam",
         aboutMe:
           "Ra'ees is a great guy to work with. My experience with him the work place is pleasant. He is always working hard and willing to help others.",

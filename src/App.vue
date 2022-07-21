@@ -42,7 +42,7 @@ export default {
   --text-color: black;
 }
 .dark-theme{
-  --background-color: black;
+  --background-color: #1f1f1f;
   --text-color: white;
 }
 h1{

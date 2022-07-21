@@ -56,11 +56,13 @@ h1{
   padding: 30px 0;
 }
 #testimonails img {
-  padding: 10px 0 0 0;
+  /* padding: 10px 0 0 0; */
+  margin: 10px 0 0 0;
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 30px;
+  border: 6px solid #1f1f1f;
 }
 .row-test {
   background: #e5e5e5 !important;
