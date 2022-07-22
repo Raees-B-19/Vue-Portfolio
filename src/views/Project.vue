@@ -17,8 +17,14 @@
                   alt="..."
                 />
                 <div class="overlay">
-                  <i class="bi bi-github"></i>
-                  <i class="bi bi-github"></i>
+                  <button class="btn-links">
+                    <a :href="project.githubLink" target="_blank">Github</a>
+                  </button>
+                  <button class="btn-links">
+                    <a :href="project.netlify" target="_blank">Netlify</a>
+                  </button>
+                  <!-- <i class="bi bi-github"></i>
+                  <i class="bi bi-github"></i> -->
                 </div>
                 <!-- <div class="card-body">
                 <h5 class="card-title">{{ project.projectName }}</h5>
@@ -46,7 +52,7 @@ export default {
   background: #1f1f1f;
   color: #e5e5e5;
   padding: 0 0 10px 0;
-  border: 10px solid #59CBE8;
+  border: 10px solid #59cbe8;
   /* height: 100vh; */
   scroll-margin: 50px;
 }
@@ -99,8 +105,24 @@ export default {
   transition: 0.6s;
   opacity: 0;
 }
-.pic .overlay i {
-  padding: 0 25px;
+.pic .overlay .btn-links {
+  padding: 0px 10px;
+  border-radius: 30px;
+  margin: 0 5px;
+  background: #1f1f1f;
+  transition: 0.7s;
+}
+.pic .overlay .btn-links a{
+  text-decoration: none;
+  color: #59cbe8;
+}
+.pic .overlay .btn-links:hover {
+  transform: scale(1.1);
+}
+.pic .overlay .btn-links {
+  padding: 0px 10px;
+  border-radius: 30px;
+  margin: 0 5px;
 }
 .pic:hover .overlay {
   opacity: 1;

@@ -52,7 +52,7 @@ export default {
 }
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: #1f1f1f;
+  background-color: #59cbe8;
   /* border-radius: 10px; */
 }
 ::-webkit-scrollbar-track {
@@ -61,7 +61,7 @@ export default {
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #59cbe8;
+  background: #e5e5e5;
   /* border-radius: 10px; */
 }
 h1{
