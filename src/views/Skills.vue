@@ -19,17 +19,23 @@
           <div>
             <h2><span>Software</span> & Platforms</h2>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <a href="https://github.com/GarlicBuns19" target="_blank">
                   <i class="bi bi-github icons git-icon"></i>
                 </a>
                 <p>Github</p>
               </div>
-              <div class="col-md-4">
-                <ion-icon name="logo-firebase" class="icons"></ion-icon>
-                <p>Firbase</p>
+              <div class="col-md-3">
+                <a href="https://app.netlify.com/teams/garlicbuns19/overview?_ga=2.91963098.1133440379.1658476313-1828783786.1649240900" target="_blank">
+                  <i class="fa-solid fa-n icons netlify-icon"></i>
+                </a>
+                <p>Netlify</p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-3">
+                <ion-icon name="logo-firebase" class="icons"></ion-icon>
+                <p>Firebase</p>
+              </div>
+              <div class="col-md-3">
                 <i class="fa-brands fa-windows icons"></i>
                 <p>Windows</p>
               </div>
@@ -114,6 +120,12 @@ export default {
   transition: 0.7s;
 }
 .git-icon:hover {
+  color: #e5e5e5;
+}
+.netlify-icon {
+  transition: 0.7s;
+}
+.netlify-icon:hover {
   color: #e5e5e5;
 }
 </style>

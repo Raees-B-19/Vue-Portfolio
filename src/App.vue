@@ -53,16 +53,16 @@ export default {
 ::-webkit-scrollbar {
   width: 7px;
   background-color: #59cbe8;
-  /* border-radius: 10px; */
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-track {
   /* box-shadow: inset 0 0 5px grey; */
-  border-radius: 10px;
+  border-radius: 30px;
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
   background: #e5e5e5;
-  /* border-radius: 10px; */
+  border-radius: 30px;
 }
 h1{
   color: #59cbe8;

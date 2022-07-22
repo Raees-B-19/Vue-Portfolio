@@ -113,7 +113,7 @@ export default createStore({
       },
       {
         githubLink:'https://github.com/GarlicBuns19/Swegga',
-        netlify:'https://swegga-rr.netlify.app',
+        netlify:'https://swegga-rrr.netlify.app/',
         image: "https://i.postimg.cc/qBKbZbtG/Swegga.png",
         projectName: "Swegga",
         aboutProject: "This is a project4444444444444444444",
