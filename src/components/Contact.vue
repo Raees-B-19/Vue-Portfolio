@@ -93,7 +93,7 @@
 <style scoped>
 #contact{
   background: #1f1f1f;
-  scroll-margin: 45px;
+  scroll-margin: 50px;
   border: 10px solid #59CBE8;
   padding: 10px 0;
   height: 77vh;

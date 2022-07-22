@@ -3,10 +3,8 @@
     <div v-if="resume">
       <div class="container">
         <div class="row">
+          <h2><span>Technical</span> Skills</h2>
           <div v-for="skills in resume" :key="skills">
-            <h2>
-              <span>{{ skills.headerSpan }}</span> {{ skills.header }}
-            </h2>
             <div class="row">
               <div
                 class="col-md-3"
@@ -22,7 +20,9 @@
             <h2><span>Software</span> & Platforms</h2>
             <div class="row">
               <div class="col-md-4">
-                <i class="bi bi-github icons"></i>
+                <a href="https://github.com/GarlicBuns19" target="_blank">
+                  <i class="bi bi-github icons git-icon"></i>
+                </a>
                 <p>Github</p>
               </div>
               <div class="col-md-4">
@@ -91,17 +91,29 @@ export default {
 <style scoped>
 #skills {
   background: #1f1f1f;
+  border: 10px solid #59cbe8;
+  color: #e5e5e5;
+  scroll-margin: 50px;
 }
+#skills h2 {
+  padding: 30px 0;
+}
+
 #skills span {
   color: #59cbe8;
 }
 #skills p {
   font-size: 20px;
-  color: #e5e5e5;
 }
 .icons {
   color: #59cbe8;
   margin: 10px;
   font-size: 80px;
+}
+.git-icon {
+  transition: 0.7s;
+}
+.git-icon:hover {
+  color: #e5e5e5;
 }
 </style>

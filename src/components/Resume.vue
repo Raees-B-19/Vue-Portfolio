@@ -1,33 +1,35 @@
 <template>
   <section id="resume">
     <h1>Resume</h1>
-  </section>
-  <!-- <div v-if="skills">
-    <div v-for="skills in resume" :key="skills">
-      {{ skills.name }}
-        <ul>
-          <li v-for="soft in skills.skillTechnical" :key="soft">{{ soft.skill }}</li>
-        </ul>
-        <ul>
-          <li v-for="tech in skills.technical" :key="tech">{{ tech.skill }}</li>
-          <li v-for="tech in skills.technical" :key="tech">{{ tech.icon }}</li>
-        </ul>
+    <div v-if="resume">
+      <div v-for="skills in resume" :key="skills">
+        <div class="col-md-6" v-for="soft in skills.softSkills" :key="soft">
+          <p>{{ soft.skill }}</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div v-else>No skills to display</div> -->
+    <div v-else>No skills to display</div>
+  </section>
 </template>
 <script>
-// export default {
-//   computed: {
-//     skills() {
-//       return this.$store.state.resume;
-//     },
-//   },
-// };
+export default {
+  computed: {
+    resume() {
+      return this.$store.state.resume;
+    },
+  },
+};
 </script>
 <style scoped>
 #resume {
   background: #1f1f1f;
+  padding: 30px 0;
+  border: 10px solid #59cbe8;
+  scroll-margin: 50px;
+
+}
+#resume h1{
+  padding: 30px 0;
 }
 .icons {
   color: #59cbe8;

@@ -17,9 +17,6 @@ export default createStore({
     ],
     resume: [
       {
-        name: "pop",
-        headerSpan:"Technical",
-        header: "Skills",
         softSkills: [
           {
             skill: "Can Work In a Team",

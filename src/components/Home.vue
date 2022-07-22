@@ -16,10 +16,13 @@
 #home {
   background: #1f1f1f;
   /* background-image: url('../assets/images/road.png'); */
-  color: #59CBE8;
+  color: #59cbe8;
   height: 100vh;
   /* background-attachment: fixed; */
-  border: 10px solid #e5e5e5;
+  border: 10px solid #59cbe8;
+}
+#home h1 {
+  color: #e5e5e5;
 }
 #home #text-in-middle {
   padding: 260px 0 0 0;

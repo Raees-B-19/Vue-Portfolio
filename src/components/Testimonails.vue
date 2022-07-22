@@ -22,7 +22,7 @@
                 <p id="aboutMe">
                   <strong>{{ testimonail.aboutMe }}</strong>
                 </p>
-                <p>{{ testimonail.position }}</p>
+                <p id="position">{{ testimonail.position }}</p>
               </div>
             </div>
           </div>
@@ -45,14 +45,14 @@ export default {
 <style scoped>
 #testimonails {
   background: #1f1f1f;
-  color: black;
+  color: #e5e5e5;
   height: max-content;
-  border: 10px solid #e5e5e5;
+  border: 10px solid #59cbe8;
   scroll-margin: 50px;
   padding: 30px 0;
 }
-h1{
-  color: #e5e5e5 !important;
+h1 {
+  /* color: #e5e5e5 !important; */
   padding: 30px 0;
 }
 #testimonails img {
@@ -65,17 +65,22 @@ h1{
   border: 6px solid #1f1f1f;
 }
 .row-test {
-  background: #e5e5e5 !important;
+  /* background: #e5e5e5 !important; */
   padding: 3px !important;
   border-radius: 30px;
+  border: 3px solid #e5e5e5;
   height: fit-content;
 }
-.row-test h5{
+.row-test h5 {
+  color: #59cbe8;
   padding: 0 0 10px 0;
   font-size: 30px;
   text-decoration: underline;
 }
-#aboutMe{
+.row-test #position {
+  color: #59cbe8;
+}
+#aboutMe {
   height: 18vh;
   overflow: hidden;
   overflow-y: auto;

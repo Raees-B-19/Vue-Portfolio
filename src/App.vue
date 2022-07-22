@@ -25,18 +25,23 @@ export default {
   color: #2c3e50;
 }
 ::-webkit-scrollbar {
-  width: 13px;
-  background-color: #E5E5E5;
+  width: 7px;
+  background-color: #1f1f1f;
+  /* border-radius: 10px; */
 }
 ::-webkit-scrollbar-track {
   /* box-shadow: inset 0 0 5px grey; */
-  border-radius: 30px;
+  border-radius: 10px;
+  width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1f1f1f;
-  border-radius: 10px;
+  background: #59cbe8;
+  /* border-radius: 10px; */
 }
-/* Background */
+h1{
+  color: #59cbe8;
+}
+/* Background
 :root{
   --background-color: white;
   --text-color: black;
@@ -47,7 +52,7 @@ export default {
 }
 h1{
   color:var(--text-color) !important;
-}
+} */
 /* nav {
   padding: 30px;
 }

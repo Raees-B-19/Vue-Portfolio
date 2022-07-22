@@ -19,7 +19,7 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -39,37 +39,47 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <div @click="changeTheme">
               <i class="bi nav-link" :class="{ 'bi-brightness-high': dark, 'bi-moon': !dark }"></i>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
   </nav>
 </template>
 <script>
-export default {
-  data(){
-    return{
-      dark: false
-    }
-  },
-  methods: {
-    changeTheme() {
-      this.dark = !this.dark;
-      document.body.classList.toggle("dark-theme");
-    },
-  },
-};
+// export default {
+//   data(){
+//     return{
+//       dark: false
+//     }
+//   },
+//   methods: {
+//     changeTheme() {
+//       this.dark = !this.dark;
+//       document.body.classList.toggle("dark-theme");
+//     },
+//   },
+// };
 </script>
 <style scoped>
 nav {
-  background: #e5e5e5;
+  background: #1f1f1f;
   padding: 5px;
+  width: 100vw;
 }
 ul li {
   padding: 0 25px;
+  font-size: 20px;
+}
+a{
+  color: #e5e5e5;
+  transition: .7s;
+}
+a:hover{
+  color: #e5e5e5;
+  transform: scale(1.1);
 }
 </style>
