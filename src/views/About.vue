@@ -1,6 +1,7 @@
 <template>
   <section id="about">
     <h1>About</h1>
+    <h2>I am <span>Ra'ees Benny</span></h2>
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
@@ -15,49 +16,50 @@
           <div v-else>No data to display</div>
           <div class="container">
             <div class="row">
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">LinkedIn</h4>
                 <a
                   href="https://www.linkedin.com/in/ra-ees-benny-a915a923a/"
                   target="_blank"
-                  ><ion-icon name="logo-linkedin" id="gitbig"></ion-icon
+                  ><ion-icon name="logo-linkedin" class="gitbig icons"></ion-icon
                 ></a>
                 Linkin Link
               </div>
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">GitHub</h4>
                 <a href="https://github.com/GarlicBuns19" target="_blank"
-                  ><ion-icon name="logo-github" id="gitbig"></ion-icon
+                  ><ion-icon name="logo-github" class="gitbig icons"></ion-icon
                 ></a>
                 Github Link
               </div>
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">Willing to Relocate</h4>
-                <ion-icon name="airplane-outline"></ion-icon> No
+                <ion-icon name="airplane-outline" class="icons"></ion-icon> No
               </div>
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">Email Address</h4>
-                <p><ion-icon name="mail-outline"></ion-icon> raeespbenny@gmail.com</p>
+                <ion-icon name="mail-outline" class="icons"></ion-icon>
+                raeespbenny@gmail.com
               </div>
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">Contact Number</h4>
-                <ion-icon name="call-outline"></ion-icon> 0676145637
+                <ion-icon name="call-outline" class="icons"></ion-icon> 0676145637
               </div>
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">Location</h4>
-                <ion-icon name="location-outline"></ion-icon> Cape Town
+                <ion-icon name="location-outline" class="icons"></ion-icon> Cape Town
               </div>
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">Gender</h4>
-                <ion-icon name="man-outline"></ion-icon> Male
+                <ion-icon name="man-outline" class="icons"></ion-icon> Male
               </div>
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">Date of Birth</h4>
-                <ion-icon name="calendar-outline"></ion-icon> 26/09/2002
+                <ion-icon name="calendar-outline" class="icons"></ion-icon> 26/09/2002
               </div>
-              <div class="col-4">
+              <div class="col-4 col-spacing-edit">
                 <h4 class="card-title">Full Name</h4>
-                <ion-icon name="person-outline"></ion-icon> Ra'ees Benny
+                <ion-icon name="person-outline" class="icons"></ion-icon> Ra'ees Benny
               </div>
             </div>
           </div>
@@ -72,6 +74,9 @@ export default {
     about() {
       return this.$store.state.about;
     },
+    resume() {
+      return this.$store.state.resume;
+    },
   },
 };
 </script>
@@ -80,19 +85,35 @@ export default {
 #about {
   background: #1f1f1f;
   /* background: var(--background-color); */
-  color: #E5E5E5;
+  color: #e5e5e5;
   height: max-content;
   background-attachment: fixed;
   padding: 30px 0;
   scroll-margin: 50px;
-  border: 10px solid #59CBE8;
+  border: 10px solid #59cbe8;
 }
-#about h1{
-  padding: 30px  0;
+#about h1 {
+  padding: 10px 0;
 }
-#about p {
-  text-align: center;
-  padding: 0 20px;
+#about h2 {
+  padding: 0px 0 20px 0;
+}
+#about span {
+  color: #59cbe8;
+}
+.col-spacing-edit {
+  padding: 30px 0;
+}
+.gitbig {
+  text-decoration: none;
+  color: #59cbe8;
+  transition: 0.7s;
+}
+.gitbig:hover {
+  transform: scale(1.3);
+}
+.icons {
+  color: #59cbe8;
 }
 #about img {
   width: 300px;
@@ -101,6 +122,6 @@ export default {
   /* object-position: 0 -60px; */
   object-position: -35.8px 0px;
   border-radius: 30px;
-  border: 7px solid #E5E5E5;
+  border: 7px solid #e5e5e5;
 }
 </style>

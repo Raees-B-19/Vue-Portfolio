@@ -54,7 +54,7 @@ export default {
 }
 h1 {
   /* color: #e5e5e5 !important; */
-  padding: 30px 0;
+  padding: 10px 0;
 }
 #testimonails img {
   /* padding: 10px 0 0 0; */

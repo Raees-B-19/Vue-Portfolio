@@ -100,6 +100,6 @@
   color: #e5e5e5;
 }
 #contact h1{
-  padding: 30px 0;
+  padding: 10px 0;
 }
 </style>

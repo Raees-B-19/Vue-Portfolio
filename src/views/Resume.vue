@@ -29,7 +29,7 @@ export default {
 
 }
 #resume h1{
-  padding: 30px 0;
+  padding: 10px 0;
 }
 .icons {
   color: #59cbe8;
