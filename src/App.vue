@@ -1,17 +1,43 @@
 <template>
-  <HomeView />
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/> -->
+  <header>
+    <NavBar />
+  </header>
+  <main>
+    <Home />
+    <About />
+    <Resume />
+    <Projects />
+    <Skills />
+    <Testimonails />
+    <Contact />
+  </main>
+  <footer>
+    <Footer />
+  </footer>
 </template>
 <script>
-import HomeView from "./views/HomeView.vue";
+// import HomeView from "./views/HomeView.vue";
+import NavBar from "./components/NavBar.vue";
+import Home from "./views/Home.vue";
+import About from "./views/About.vue";
+import Resume from "./views/Resume.vue";
+import Projects from "./views/Project.vue";
+import Skills from "./views/Skills.vue";
+import Testimonails from "./views/Testimonails.vue";
+import Contact from "./views/Contact.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   components: {
-    HomeView,
+    NavBar,
+    Home,
+    About,
+    Resume,
+    Projects,
+    Skills,
+    Testimonails,
+    Contact,
+    Footer,
   },
 };
 </script>
@@ -66,3 +92,10 @@ nav a.router-link-exact-active {
   color: #42b983;
 } */
 </style>
+
+<script>
+
+
+
+</script>
+
