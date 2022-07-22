@@ -19,6 +19,10 @@ export default createStore({
       {
         softSkills: [
           {
+            name:'Soft ',
+            name1:'skills'
+          },
+          {
             skill: "Can Work In a Team",
           },
           {
@@ -51,6 +55,12 @@ export default createStore({
             start:'2022-',
             end:'2022/03',
             duties:'Casual weekends working for my uncle in the building field',
+          },
+          {
+            name:'Education',
+            start:'',
+            end:'2022',
+            duties:'Finished Matric with bachelor\'s',
           },
         ],
       },

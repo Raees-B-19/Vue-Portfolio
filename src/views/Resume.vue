@@ -5,20 +5,34 @@
       <div class="container">
         <div v-for="skills in resume" :key="skills">
           <div class="row">
-            <!-- <div class="col-md-6" v-for="soft in skills.softSkills" :key="soft">
-              <p>{{ soft.skill }}</p>
-            </div> -->
             <div
               class="col-md-6 experience-container"
               v-for="workExperience in skills.experience"
               :key="workExperience"
             >
-              <h2>{{ workExperience.start }}<span>{{workExperience.end}}</span></h2>
-              <h3><span id="life-choices">{{workExperience.main}}</span> {{ workExperience.name }}</h3>
+              <h2>
+                {{ workExperience.start }}<span>{{ workExperience.end }}</span>
+              </h2>
+              <h3>
+                <span id="life-choices">{{ workExperience.main }}</span>
+                {{ workExperience.name }}
+              </h3>
               <ul>
-                <li><h4>{{ workExperience.duties }}</h4></li>
-                <li><h4>{{ workExperience.duties1 }}</h4></li>
+                <li>
+                  <h4>{{ workExperience.duties }}</h4>
+                </li>
+                <li>
+                  <h4>{{ workExperience.duties1 }}</h4>
+                </li>
               </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div v-for="soft in skills.softSkills" :key="soft">
+              <h2>{{ soft.name }} <span>{{soft.name1}}</span></h2>
+              <div class="col-md-12">
+                <h4>{{ soft.skill }}</h4>
+              </div>
             </div>
           </div>
         </div>
@@ -47,6 +61,13 @@ export default {
 #resume h1 {
   padding: 10px 0;
 }
+#resume h2 {
+  text-decoration: underline;
+  padding: 10px 0;
+}
+#resume span {
+  color: #59cbe8;
+}
 .icons {
   color: #59cbe8;
   margin: 10px;
@@ -65,7 +86,7 @@ export default {
 .experience-container #life-choices {
   color: #66ff00;
 }
-.experience-container ul li{
+.experience-container ul li {
   list-style: none;
 }
 .experience-container::before {
