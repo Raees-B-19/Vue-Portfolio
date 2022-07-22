@@ -10,7 +10,7 @@
         <div class="col-12 col-md-6">
           <div v-if="about">
             <div v-for="para in about" :key="para">
-              <p>{{ para.p }}</p>
+              <p class="about-data">{{ para.p }}</p>
             </div>
           </div>
           <div v-else>No data to display</div>
@@ -97,6 +97,9 @@ export default {
 }
 #about h2 {
   padding: 0px 0 20px 0;
+}
+#about .about-data{
+  font-size: 20px;
 }
 #about span {
   color: #59cbe8;

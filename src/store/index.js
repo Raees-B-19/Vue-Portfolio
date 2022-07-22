@@ -31,6 +31,28 @@ export default createStore({
             skill: "Good Time Management",
           },
         ],
+        experience: [
+          {
+            main:'Life',
+            name:'Choices Academy',
+            start:'2022/03/28-',
+            end:'Present',
+            duties:'Learning Code',
+            duties1:'Professional Development',
+          },
+          {
+            name:'Self Employed',
+            start:'2021-',
+            end:'2022/11',
+            duties:'Building Computers',
+          },
+          {
+            name:'Casual Labourer',
+            start:'2022-',
+            end:'2022/03',
+            duties:'Casual weekends working for my uncle in the building field',
+          },
+        ],
       },
       {
         skillTechnical: [

@@ -2,9 +2,25 @@
   <section id="resume">
     <h1>Resume</h1>
     <div v-if="resume">
-      <div v-for="skills in resume" :key="skills">
-        <div class="col-md-6" v-for="soft in skills.softSkills" :key="soft">
-          <p>{{ soft.skill }}</p>
+      <div class="container">
+        <div v-for="skills in resume" :key="skills">
+          <div class="row">
+            <!-- <div class="col-md-6" v-for="soft in skills.softSkills" :key="soft">
+              <p>{{ soft.skill }}</p>
+            </div> -->
+            <div
+              class="col-md-6 experience-container"
+              v-for="workExperience in skills.experience"
+              :key="workExperience"
+            >
+              <h2>{{ workExperience.start }}<span>{{workExperience.end}}</span></h2>
+              <h3><span id="life-choices">{{workExperience.main}}</span> {{ workExperience.name }}</h3>
+              <ul>
+                <li><h4>{{ workExperience.duties }}</h4></li>
+                <li><h4>{{ workExperience.duties1 }}</h4></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -23,17 +39,45 @@ export default {
 <style scoped>
 #resume {
   background: #1f1f1f;
+  color: #e5e5e5;
   padding: 30px 0;
   border: 10px solid #59cbe8;
   scroll-margin: 50px;
-
 }
-#resume h1{
+#resume h1 {
   padding: 10px 0;
 }
 .icons {
   color: #59cbe8;
   margin: 10px;
   font-size: 80px;
+}
+.experience-container {
+  border-left: 3px solid #59cbe8;
+  padding: 0 0 0 3% !important;
+  position: relative !important;
+  text-align: left;
+  margin: 10px 0;
+}
+.experience-container span {
+  color: #59cbe8;
+}
+.experience-container #life-choices {
+  color: #66ff00;
+}
+.experience-container ul li{
+  list-style: none;
+}
+.experience-container::before {
+  position: absolute;
+  left: -11px;
+  top: 0;
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 3px solid #59cbe8;
+  border-radius: 50%;
+  background: #1f1f1f !important;
 }
 </style>
