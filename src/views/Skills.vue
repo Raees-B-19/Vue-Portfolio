@@ -3,7 +3,7 @@
     <div v-if="resume">
       <div class="container">
         <div class="row">
-          <h2><span>Technical</span> Skills</h2>
+          <h1><span>Technical</span> Skills</h1>
           <div v-for="skills in resume" :key="skills">
             <div class="row">
               <div
@@ -101,7 +101,7 @@ export default {
   color: #e5e5e5;
   scroll-margin: 50px;
 }
-#skills h2 {
+#skills h1 {
   padding: 30px 0;
 }
 

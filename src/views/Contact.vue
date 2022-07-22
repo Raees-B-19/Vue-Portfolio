@@ -64,10 +64,11 @@
                   />
                 </div>
               </div>
-              <div class="col-md-12">
+              <div class="col-md-3"></div>
+              <div class="col-md-6">
                 <div class="mx-5 mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label"
-                    >Example textarea</label
+                    >Send Me a Message</label
                   >
                   <textarea
                     class="form-control"
@@ -76,8 +77,9 @@
                   ></textarea>
                 </div>
               </div>
+              <div class="col-md-3"></div>
               <div class="col-md-12">
-                <button type="submit">Submit</button>
+                <button type="submit" id="submit">Submit</button>
               </div>
             </div>
           </form>
@@ -96,10 +98,22 @@
   scroll-margin: 50px;
   border: 10px solid #59CBE8;
   padding: 10px 0;
-  height: 77vh;
+  /* height: 77vh; */
   color: #e5e5e5;
 }
 #contact h1{
   padding: 10px 0;
+}
+#contact #submit{
+  color: #1f1f1f;
+  background-color: #59CBE8;
+  border: 3px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 17px;
+  transition: .7s;
+}
+#contact #submit:hover{
+  transform: scale(1.2);
 }
 </style>

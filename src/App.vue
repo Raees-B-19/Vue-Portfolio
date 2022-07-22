@@ -66,7 +66,19 @@ export default {
 }
 h1{
   color: #59cbe8;
+  font-family: 'Archivo', sans-serif;
 }
+h4,h5{
+  font-family: 'Crimson Text', serif;
+}
+p{
+  font-family: 'Asap', sans-serif;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;1,400;1,500&family=Tiro+Tamil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap');
 /* Background
 :root{
   --background-color: white;

@@ -160,7 +160,7 @@ export default createStore({
     ],
     testimonails: [
       {
-        image: "https://i.postimg.cc/prMdzXhn/Joel.jpg  ",
+        image: "https://i.postimg.cc/prMdzXhn/Joel.jpg",
         name: "Joel",
         aboutMe:
           "Ra'ees has a gentle personality which makes him approachable. He has great potential in front-end technologies. You will be glad to have him on your team. Joel Mukanya-Coding Lecturer.",
