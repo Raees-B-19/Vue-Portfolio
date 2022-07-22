@@ -70,6 +70,13 @@ nav {
   padding: 5px;
   width: 100vw;
 }
+  .navbar-toggler-icon {
+  background-image: url('../assets/images/Navbarwhite.png') !important;
+}
+.navbar-toggler{
+  color: rgb(254, 255, 251);
+  border-color: white;
+}
 ul li {
   padding: 0 25px;
   font-size: 20px;

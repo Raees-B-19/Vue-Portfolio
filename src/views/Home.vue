@@ -38,7 +38,10 @@
   transition: all 0.7s ease;
 }
 .left-enter-from {
-  transform: scaleX(1500px);
+  transform: scaleX(-1500px);
+}
+.left-enter-to {
+  transform: scaleX(0px);
 }
 .left-enter-active {
   transition: all 0.7s ease;

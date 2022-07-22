@@ -33,7 +33,7 @@
                     type="email"
                     class="form-control"
                     id="exampleFormControlInput1"
-                    placeholder="name@example.com"
+                    placeholder="eg@gmail.com"
                   />
                 </div>
               </div>
