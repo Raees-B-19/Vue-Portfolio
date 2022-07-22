@@ -18,7 +18,8 @@ export default createStore({
     resume: [
       {
         name: "pop",
-        header: "Technical Skills",
+        headerSpan:"Technical",
+        header: "Skills",
         softSkills: [
           {
             skill: "Can Work In a Team",
@@ -53,7 +54,7 @@ export default createStore({
             skill: "Javascipt",
           },
           {
-            skill: "dummy",
+            skill: "",
           },
           {
             icon: "fa-brands fa-vuejs",
@@ -64,22 +65,22 @@ export default createStore({
             skill: "MySql",
           },
           {
-            skill: "dummy",
+            skill: "",
           },
         ],
       },
-      {
-        software: [
-          {
-            icon: "fa-brands fa-github",
-            skill: "github",
-          },
-          {
-            icon: "",
-            skill: "windows",
-          },
-        ],
-      },
+      // {
+      //   software: [
+      //     {
+      //       icon: "fa-brands fa-github",
+      //       skill: "github",
+      //     },
+      //     {
+      //       icon: "",
+      //       skill: "windows",
+      //     },
+      //   ],
+      // },
     ],
     projects: [
       {

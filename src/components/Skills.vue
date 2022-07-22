@@ -4,7 +4,9 @@
       <div class="container">
         <div class="row">
           <div v-for="skills in resume" :key="skills">
-            <h2>{{ skills.header }}</h2>
+            <h2>
+              <span>{{ skills.headerSpan }}</span> {{ skills.header }}
+            </h2>
             <div class="row">
               <div
                 class="col-md-3"
@@ -12,20 +14,24 @@
                 :key="tech"
               >
                 <i :class="tech.icon" class="icons"></i>
+                <p>{{ tech.skill }}</p>
               </div>
             </div>
           </div>
           <div>
-            <h2>Software & Platforms</h2>
+            <h2><span>Software</span> & Platforms</h2>
             <div class="row">
               <div class="col-md-4">
                 <i class="bi bi-github icons"></i>
+                <p>Github</p>
               </div>
               <div class="col-md-4">
                 <ion-icon name="logo-firebase" class="icons"></ion-icon>
+                <p>Firbase</p>
               </div>
               <div class="col-md-4">
                 <i class="fa-brands fa-windows icons"></i>
+                <p>Windows</p>
               </div>
             </div>
           </div>
@@ -85,6 +91,13 @@ export default {
 <style scoped>
 #skills {
   background: #1f1f1f;
+}
+#skills span {
+  color: #59cbe8;
+}
+#skills p {
+  font-size: 20px;
+  color: #e5e5e5;
 }
 .icons {
   color: #59cbe8;

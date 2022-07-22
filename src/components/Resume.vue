@@ -1,6 +1,8 @@
 <template>
-  <h1>Resume</h1>
-   <!-- <div v-if="skills">
+  <section id="resume">
+    <h1>Resume</h1>
+  </section>
+  <!-- <div v-if="skills">
     <div v-for="skills in resume" :key="skills">
       {{ skills.name }}
         <ul>
