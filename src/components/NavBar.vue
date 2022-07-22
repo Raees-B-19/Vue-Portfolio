@@ -28,6 +28,9 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#testimonails">Testimonails</a>
           </li>
           <li class="nav-item">
