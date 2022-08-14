@@ -33,7 +33,7 @@
 export default {
   data() {
     return {
-      currentYear: new Date().getFullYear(), // 2020
+      currentYear: new Date().getFullYear(),
     };
   },
 };

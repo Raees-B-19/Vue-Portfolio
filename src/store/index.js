@@ -83,7 +83,8 @@ export default createStore({
             skill: "Javascipt",
           },
           {
-            skill: "",
+            icon: "fa-brands fa-node",
+            skill: "Node Js"
           },
           {
             icon: "fa-brands fa-vuejs",
@@ -94,7 +95,8 @@ export default createStore({
             skill: "MySql",
           },
           {
-            skill: "",
+            icon: "fa-solid fa-e",
+            skill: "Express Js",
           },
         ],
       },
