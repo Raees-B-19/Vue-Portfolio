@@ -3,7 +3,7 @@
     <h1>Resume</h1>
     <div v-if="resume">
       <div class="container">
-        <div v-for="skills in resume" :key="skills">
+        <div v-for="skills in resume" :key="skills" id="resumeDiv">
           <div class="row">
             <div
               class="col-md-6 experience-container"
@@ -100,5 +100,8 @@ export default {
   border: 3px solid #59cbe8;
   border-radius: 50%;
   background: #1f1f1f !important;
+}
+#resumeDiv{
+  padding: 0 2.3%;
 }
 </style>
