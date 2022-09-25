@@ -1,12 +1,12 @@
 <template>
   <section id="testimonails">
-    <h1>Testimonails</h1>
-    <h2>Scroll what my testimonails say about me</h2>
+    <h2>Testimonails</h2>
+    <h3>Scroll what my testimonails say about me</h3>
     <div v-if="testimonails">
       <div class="container">
         <div class="row">
           <div
-            class="col-lg-4 col-md-4"
+            class="col-lg-4 col-md-6"
             v-for="testimonail in testimonails"
             :key="testimonail"
           >

@@ -116,4 +116,11 @@
 #contact #submit:hover{
   transform: scale(1.2);
 }
+.form-control:focus::placeholder{
+    transition: 0.4s ease-in-out;
+    color: transparent;
+}
+.form-control::placeholder{
+    transition: 0.4s ease-in-out;
+}
 </style>

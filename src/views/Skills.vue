@@ -2,7 +2,7 @@
   <section id="skills">
     <div v-if="resume">
       <div class="container">
-        <div class="row">
+        <div class="row mx-auto ">
           <h1><span>Technical</span> Skills</h1>
           <div v-for="skills in resume" :key="skills">
             <div class="row">
@@ -18,7 +18,7 @@
           </div>
           <div>
             <h2><span>Software</span> & Platforms</h2>
-            <div class="row">
+            <div class="row mx-auto justify-content-center">
               <div class="col-md-3">
                 <a href="https://github.com/GarlicBuns19" target="_blank">
                   <i class="bi bi-github icons git-icon"></i>
@@ -26,9 +26,7 @@
                 <p>Github</p>
               </div>
               <div class="col-md-3">
-                <a href="https://app.netlify.com/teams/garlicbuns19/overview?_ga=2.91963098.1133440379.1658476313-1828783786.1649240900" target="_blank">
-                  <i class="fa-solid fa-n icons netlify-icon"></i>
-                </a>
+                <i class="fa-solid fa-n icons netlify-icon"></i>
                 <p>Netlify</p>
               </div>
               <div class="col-md-3">
@@ -38,6 +36,14 @@
               <div class="col-md-3">
                 <i class="fa-brands fa-windows icons"></i>
                 <p>Windows</p>
+              </div>
+              <div class="col-md-3">
+                <i class='bx bxl-heroku icons'></i>
+                <p>Heroku</p>
+              </div>
+              <div class="col-md-3">
+                <i class='bx bxl-figma icons' ></i>
+                <p>Figma</p>
               </div>
             </div>
           </div>

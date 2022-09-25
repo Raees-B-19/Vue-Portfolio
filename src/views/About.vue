@@ -1,7 +1,7 @@
 <template>
   <section id="about">
-    <h1>About</h1>
-    <h2>I am <span>Ra'ees Benny</span></h2>
+    <h2>About</h2>
+    <h3>I am <span>Ra'ees Benny</span></h3>
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">

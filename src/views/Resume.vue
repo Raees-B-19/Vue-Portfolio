@@ -1,6 +1,6 @@
 <template>
   <section id="resume">
-    <h1>Resume</h1>
+    <h2>Resume</h2>
     <div v-if="resume">
       <div class="container">
         <div v-for="skills in resume" :key="skills" id="resumeDiv">

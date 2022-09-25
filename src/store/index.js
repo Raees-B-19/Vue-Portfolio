@@ -19,8 +19,8 @@ export default createStore({
       {
         softSkills: [
           {
-            name:'Soft ',
-            name1:'skills'
+            name: "Soft ",
+            name1: "skills",
           },
           {
             skill: "Can Work In a Team",
@@ -37,30 +37,31 @@ export default createStore({
         ],
         experience: [
           {
-            main:'Life',
-            name:'Choices Academy',
-            start:'2022/03/28-',
-            end:'Present',
-            duties:'Learning Code',
-            duties1:'Professional Development',
+            main: "Life",
+            name: "Choices Academy",
+            start: "2022/03/28-",
+            end: "Present",
+            duties: "Learning Code",
+            duties1: "Professional Development",
           },
           {
-            name:'Self Employed',
-            start:'2021-',
-            end:'2022/11',
-            duties:'Building Computers',
+            name: "Self Employed",
+            start: "2021-",
+            end: "2022/11",
+            duties: "Building Computers",
           },
           {
-            name:'Casual Labourer',
-            start:'2022-',
-            end:'2022/03',
-            duties:'Casual weekends working for my uncle in the building field',
+            name: "Casual Labourer",
+            start: "2022-",
+            end: "2022/03",
+            duties:
+              "Casual weekends working for my uncle in the building field",
           },
           {
-            name:'Education',
-            start:'',
-            end:'2022',
-            duties:'Finished Matric with bachelor\'s',
+            name: "Education",
+            start: "",
+            end: "2022",
+            duties: "Finished Matric with bachelor's",
           },
         ],
       },
@@ -84,7 +85,7 @@ export default createStore({
           },
           {
             icon: "fa-brands fa-node",
-            skill: "Node Js"
+            skill: "Node Js",
           },
           {
             icon: "fa-brands fa-vuejs",
@@ -115,49 +116,54 @@ export default createStore({
     ],
     projects: [
       {
-        githubLink:'https://github.com/GarlicBuns19/Pokedex',
-        netlify:'https://pokedex-r.netlify.app',
+        githubLink: "https://github.com/GarlicBuns19/Pokedex",
+        netlify: "https://pokedex-r.netlify.app",
         image: "https://i.postimg.cc/zX9QGs96/Pokedex.png",
         projectName: "Pokedex Api",
-        aboutProject:
-          "This is a project When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.",
+        aboutProject: "",
       },
       {
-        githubLink:'https://github.com/GarlicBuns19/PropertyListing',
-        netlify:'https://property-listing-r.netlify.app',
-        image: "https://i.postimg.cc/tTM5mPbw/Property-Listing.png",
+        githubLink: "https://github.com/GarlicBuns19/PropertyListing",
+        netlify: "https://property-listing-r.netlify.app",
+        image: "https://i.postimg.cc/dV08RLwV/Rb-Property.png",
         projectName: "Property Listing",
-        aboutProject:
-          "This is a project When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.",
+        aboutProject: "",
       },
       {
-        githubLink:'https://github.com/GarlicBuns19/TodoApp',
-        netlify:'https://todo-app-rrr.netlify.app',
+        githubLink: "https://github.com/GarlicBuns19/TodoApp",
+        netlify: "https://todo-app-rrr.netlify.app",
         image: "https://i.postimg.cc/506G0f2c/TodoApp.png",
         projectName: "TodoApp",
-        aboutProject:
-          "This is a project When I failed to get a place at university, I was down, but a friend told me about Life Choices. I applied and got the opportunity. I want to have the knowledge to develop web applications.",
+        aboutProject: "",
       },
       {
-        githubLink:'https://github.com/GarlicBuns19/BMI-Calculator',
-        netlify:'https://bmi-calculator-r.netlify.app',
+        githubLink: "https://github.com/GarlicBuns19/BMI-Calculator",
+        netlify: "https://bmi-calculator-r.netlify.app",
         image: "https://i.postimg.cc/MG8KVrjr/Bmi-Calculator.png",
         projectName: "Bmi-Calculator",
-        aboutProject: "This is a 2222222t",
+        aboutProject: "",
       },
       {
-        githubLink:'https://github.com/GarlicBuns19/Swegga',
-        netlify:'https://swegga-rrr.netlify.app/',
+        githubLink: "https://github.com/GarlicBuns19/Swegga",
+        netlify: "https://swegga-rrr.netlify.app/",
         image: "https://i.postimg.cc/qBKbZbtG/Swegga.png",
         projectName: "Swegga",
-        aboutProject: "This is a project4444444444444444444",
+        aboutProject: "",
       },
       {
-        githubLink:'https://github.com/GarlicBuns19/Temperature-Converter',
-        netlify:'https://temperature-converter-r.netlify.app',
+        githubLink: "https://github.com/GarlicBuns19/Temperature-Converter",
+        netlify: "https://temperature-converter-r.netlify.app",
         image: "https://i.postimg.cc/VN549DQn/Temp-Calculator.png",
         projectName: "Temperature Converter",
-        aboutProject: "This is a project4444444444444444444",
+        aboutProject: "",
+      },
+      {
+        githubLink: "https://github.com/GarlicBuns19/Temperature-Converter",
+        firebase: "https://gpu-land.firebaseapp.com/",
+        netlify: "https://gpu-land.netlify.app/",
+        image: "https://i.postimg.cc/VN549DQn/Temp-Calculator.png",
+        projectName: "Gpu Land",
+        aboutProject: "",
       },
     ],
     testimonails: [

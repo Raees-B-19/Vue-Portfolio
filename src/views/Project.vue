@@ -1,11 +1,11 @@
 <template>
   <section id="projects">
-    <h1>Projects</h1>
+    <h2>Projects</h2>
     <div v-if="projects">
       <div class="container">
-        <div class="row">
+        <div class="row mx-auto justify-content-center">
           <div
-            class="col-lg-4 col-md-4"
+            class="col-lg-4 col-md-6"
             v-for="project in projects"
             :key="project"
           >
@@ -62,7 +62,7 @@ export default {
   border-radius: 30px;
   /* width: ; */
 }
-#projects h1 {
+#projects h2 {
   padding: 30px 0;
 }
 #projects img {
