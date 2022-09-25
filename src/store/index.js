@@ -116,17 +116,18 @@ export default createStore({
     ],
     projects: [
       {
+        githubLink: "https://github.com/GarlicBuns19/GPU-Land-frontend",
+        firebase: "https://gpu-land.firebaseapp.com/",
+        netlify: "https://gpu-land.netlify.app/",
+        image: "https://i.postimg.cc/132ym6VL/GpuLand.png",
+        projectName: "Gpu Land",
+        aboutProject: "",
+      },
+      {
         githubLink: "https://github.com/GarlicBuns19/Pokedex",
         netlify: "https://pokedex-r.netlify.app",
         image: "https://i.postimg.cc/zX9QGs96/Pokedex.png",
         projectName: "Pokedex Api",
-        aboutProject: "",
-      },
-      {
-        githubLink: "https://github.com/GarlicBuns19/PropertyListing",
-        netlify: "https://property-listing-r.netlify.app",
-        image: "https://i.postimg.cc/dV08RLwV/Rb-Property.png",
-        projectName: "Property Listing",
         aboutProject: "",
       },
       {
@@ -137,6 +138,13 @@ export default createStore({
         aboutProject: "",
       },
       {
+        githubLink: "https://github.com/GarlicBuns19/PropertyListing",
+        netlify: "https://property-listing-r.netlify.app",
+        image: "https://i.postimg.cc/dV08RLwV/Rb-Property.png",
+        projectName: "Property Listing",
+        aboutProject: "",
+      },
+      {
         githubLink: "https://github.com/GarlicBuns19/BMI-Calculator",
         netlify: "https://bmi-calculator-r.netlify.app",
         image: "https://i.postimg.cc/MG8KVrjr/Bmi-Calculator.png",
@@ -144,25 +152,10 @@ export default createStore({
         aboutProject: "",
       },
       {
-        githubLink: "https://github.com/GarlicBuns19/Swegga",
-        netlify: "https://swegga-rrr.netlify.app/",
-        image: "https://i.postimg.cc/qBKbZbtG/Swegga.png",
-        projectName: "Swegga",
-        aboutProject: "",
-      },
-      {
         githubLink: "https://github.com/GarlicBuns19/Temperature-Converter",
         netlify: "https://temperature-converter-r.netlify.app",
         image: "https://i.postimg.cc/VN549DQn/Temp-Calculator.png",
         projectName: "Temperature Converter",
-        aboutProject: "",
-      },
-      {
-        githubLink: "https://github.com/GarlicBuns19/Temperature-Converter",
-        firebase: "https://gpu-land.firebaseapp.com/",
-        netlify: "https://gpu-land.netlify.app/",
-        image: "https://i.postimg.cc/VN549DQn/Temp-Calculator.png",
-        projectName: "Gpu Land",
         aboutProject: "",
       },
     ],

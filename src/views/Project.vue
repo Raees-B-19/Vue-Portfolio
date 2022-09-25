@@ -23,6 +23,9 @@
                   <button class="btn-links">
                     <a :href="project.netlify" target="_blank">Netlify</a>
                   </button>
+                  <button v-if="project.firebase" class="btn-links">
+                    <a :href="project.firebase" target="_blank">Firebase</a>
+                  </button>
                   <!-- <i class="bi bi-github"></i>
                   <i class="bi bi-github"></i> -->
                 </div>
