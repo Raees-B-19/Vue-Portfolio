@@ -14,6 +14,7 @@
                 {{ workExperience.start }}<span>{{ workExperience.end }}</span>
               </h2>
               <h3>
+                <span id="studio" v-if="workExperience.studio">{{ workExperience.studio }}</span>
                 <span id="life-choices">{{ workExperience.main }}</span>
                 {{ workExperience.name }}
               </h3>
@@ -67,6 +68,9 @@ export default {
 }
 #resume span {
   color: #59cbe8;
+}
+#resume #studio {
+  color: #e5e5e5;
 }
 .icons {
   color: #59cbe8;
