@@ -13,11 +13,11 @@
               <h2>
                 {{ workExperience.start }}<span>{{ workExperience.end }}</span>
               </h2>
-              <h3>
+              <p>
                 <span id="studio" v-if="workExperience.studio">{{ workExperience.studio }}</span>
                 <span id="life-choices">{{ workExperience.main }}</span>
                 {{ workExperience.name }}
-              </h3>
+              </p>
               <ul>
                 <li>
                   <h4>{{ workExperience.duties }}</h4>
@@ -59,11 +59,9 @@ export default {
   border: 10px solid #59cbe8;
   scroll-margin: 50px;
 }
-#resume h1 {
-  padding: 10px 0;
-}
-#resume h2 {
+#resume p {
   text-decoration: underline;
+  font-size: 28px;
   padding: 10px 0;
 }
 #resume span {

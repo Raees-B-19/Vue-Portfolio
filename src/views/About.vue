@@ -15,51 +15,79 @@
           </div>
           <div v-else>No data to display</div>
           <div class="container">
-            <div class="row">
-              <div class="col-4 col-spacing-edit">
+            <div class="row mx-auto">
+              <div class="col-6 col-md-4 col-spacing-edit">
                 <h4 class="card-title">LinkedIn</h4>
-                <a
-                  href="https://www.linkedin.com/in/ra-ees-benny-a915a923a/"
-                  target="_blank"
-                  ><ion-icon name="logo-linkedin" class="gitbig icons"></ion-icon
-                ></a>
-                Linkin Link
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/ra-ees-benny-a915a923a/"
+                    target="_blank"
+                    ><ion-icon
+                      name="logo-linkedin"
+                      class="gitbig icons"
+                    ></ion-icon
+                  ></a>
+                  Linkedin Link
+                </p>
               </div>
-              <div class="col-4 col-spacing-edit">
+              <div class="col-6 col-md-4 col-spacing-edit">
                 <h4 class="card-title">GitHub</h4>
-                <a href="https://github.com/GarlicBuns19" target="_blank"
-                  ><ion-icon name="logo-github" class="gitbig icons"></ion-icon
-                ></a>
-                Github Link
+                <p>
+                  <a href="https://github.com/GarlicBuns19" target="_blank"
+                    ><ion-icon
+                      name="logo-github"
+                      class="gitbig icons"
+                    ></ion-icon
+                  ></a>
+                  Github Link
+                </p>
               </div>
-              <div class="col-4 col-spacing-edit">
+              <div class="col-6 col-md-4 col-spacing-edit">
                 <h4 class="card-title">Willing to Relocate</h4>
-                <ion-icon name="airplane-outline" class="icons"></ion-icon> No
+                <p>
+                  <ion-icon name="airplane-outline" class="icons"></ion-icon> No
+                </p>
               </div>
-              <div class="col-4 col-spacing-edit">
-                <h4 class="card-title">Email Address</h4>
-                <ion-icon name="mail-outline" class="icons"></ion-icon>
-                raeespbenny@gmail.com
-              </div>
-              <div class="col-4 col-spacing-edit">
+              <div class="col-6 col-md-4 col-spacing-edit">
                 <h4 class="card-title">Contact Number</h4>
-                <ion-icon name="call-outline" class="icons"></ion-icon> 0676145637
+                <p>
+                  <ion-icon name="call-outline" class="icons"></ion-icon>
+                  0676145637
+                </p>
               </div>
-              <div class="col-4 col-spacing-edit">
+              <div class="col-6 col-md-4 col-spacing-edit">
                 <h4 class="card-title">Location</h4>
-                <ion-icon name="location-outline" class="icons"></ion-icon> Cape Town
+                <p>
+                  <ion-icon name="location-outline" class="icons"></ion-icon>
+                  Cape Town
+                </p>
               </div>
-              <div class="col-4 col-spacing-edit">
+              <div class="col-6 col-md-4 col-spacing-edit">
                 <h4 class="card-title">Gender</h4>
-                <ion-icon name="man-outline" class="icons"></ion-icon> Male
+                <p>
+                  <ion-icon name="man-outline" class="icons"></ion-icon> Male
+                </p>
               </div>
-              <div class="col-4 col-spacing-edit">
+              <div class="col-6 col-md-4 col-spacing-edit">
                 <h4 class="card-title">Date of Birth</h4>
-                <ion-icon name="calendar-outline" class="icons"></ion-icon> 26/09/2002
+                <p>
+                  <ion-icon name="calendar-outline" class="icons"></ion-icon>
+                  26/09/2002
+                </p>
               </div>
-              <div class="col-4 col-spacing-edit">
+              <div class="col-6 col-md-4 col-spacing-edit">
                 <h4 class="card-title">Full Name</h4>
-                <ion-icon name="person-outline" class="icons"></ion-icon> Ra'ees Benny
+                <p>
+                  <ion-icon name="person-outline" class="icons"></ion-icon>
+                  Ra'ees Benny
+                </p>
+              </div>
+              <div class="col-6 col-md-4 col-spacing-edit">
+                <h4 class="card-title">Email Address</h4>
+                <p>
+                  <ion-icon name="mail-outline" class="icons"></ion-icon>
+                  raeespbenny@gmail.com
+                </p>
               </div>
             </div>
           </div>
@@ -92,20 +120,24 @@ export default {
   scroll-margin: 50px;
   border: 10px solid #59cbe8;
 }
-#about h1 {
-  padding: 10px 0;
-}
 #about h2 {
   padding: 0px 0 20px 0;
 }
-#about .about-data{
+#about h3 {
+  font-size: 30px;
+  padding: 0 0 10px 0;
+}
+#about p {
+  font-size: 19.6px;
+}
+#about .about-data {
   font-size: 20px;
 }
 #about span {
   color: #59cbe8;
 }
 .col-spacing-edit {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 .gitbig {
   text-decoration: none;
