@@ -12,7 +12,7 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="mx-5 mb-3">
-                  <label for="exampleFormControlInput1" class="form-label"
+                  <label for="name" class="form-label"
                     >Name</label
                   >
                   <input
@@ -32,33 +32,33 @@
                   <input
                     type="email"
                     class="form-control"
-                    id="exampleFormControlInput1"
+                    id="contact-name"
                     placeholder="eg@gmail.com"
                   />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="mx-5 mb-3">
-                  <label for="exampleFormControlInput1" class="form-label"
+                  <label for="subject" class="form-label"
                     >Subject</label
                   >
                   <input
                     type="subject"
                     class="form-control"
-                    id="exampleFormControlInput1"
+                    id="contact-subject"
                     placeholder="Subject"
                   />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="mx-5 mb-3">
-                  <label for="exampleFormControlInput1" class="form-label"
+                  <label for="telephone" class="form-label"
                     >Telephone</label
                   >
                   <input
                     type="number"
                     class="form-control"
-                    id="exampleFormControlInput1"
+                    id="contact-telephone"
                     placeholder="000-0000-000"
                     maxlength="10"
                   />
@@ -67,12 +67,12 @@
               <div class="col-md-3"></div>
               <div class="col-md-6">
                 <div class="mx-5 mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label"
+                  <label for="message" class="form-label"
                     >Send Me a Message</label
                   >
                   <textarea
                     class="form-control"
-                    id="exampleFormControlTextarea1"
+                    id="contact-message"
                     rows="3"
                   ></textarea>
                 </div>

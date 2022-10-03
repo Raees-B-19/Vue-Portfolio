@@ -2,7 +2,6 @@ import { createStore } from "vuex";
 
 export default createStore({
   state: {
-    // portfolioUrl: "https://i.postimg.cc/Fs9sBMTW/Raeesedit.png",
     portfolioUrl: "https://i.postimg.cc/D0wMC1XV/Raees.jpg",
     about: [
       {
@@ -129,42 +128,42 @@ export default createStore({
         githubLink: "https://github.com/GarlicBuns19/GPU-Land-frontend",
         firebase: "https://gpu-land.firebaseapp.com/",
         netlify: "https://gpu-land.netlify.app/",
-        image: "https://i.postimg.cc/132ym6VL/GpuLand.png",
+        image: "https://i.postimg.cc/Qth8vCXB/GpuLand.jpg",
         projectName: "Gpu Land",
         aboutProject: "",
       },
       {
         githubLink: "https://github.com/GarlicBuns19/Pokedex",
         netlify: "https://pokedex-r.netlify.app",
-        image: "https://i.postimg.cc/zX9QGs96/Pokedex.png",
+        image: "https://i.postimg.cc/BvxZhHG9/Pokedex.jpg",
         projectName: "Pokedex Api",
         aboutProject: "",
       },
       {
         githubLink: "https://github.com/GarlicBuns19/TodoApp",
         netlify: "https://todo-app-rrr.netlify.app",
-        image: "https://i.postimg.cc/506G0f2c/TodoApp.png",
+        image: "https://i.postimg.cc/X7JJVr9d/TodoApp.jpg",
         projectName: "TodoApp",
         aboutProject: "",
       },
       {
         githubLink: "https://github.com/GarlicBuns19/PropertyListing",
         netlify: "https://property-listing-r.netlify.app",
-        image: "https://i.postimg.cc/dV08RLwV/Rb-Property.png",
+        image: "https://i.postimg.cc/mk6TcS7M/Rb-Property.jpg",
         projectName: "Property Listing",
         aboutProject: "",
       },
       {
         githubLink: "https://github.com/GarlicBuns19/BMI-Calculator",
         netlify: "https://bmi-calculator-r.netlify.app",
-        image: "https://i.postimg.cc/MG8KVrjr/Bmi-Calculator.png",
+        image: "https://i.postimg.cc/Z5v5dX7q/Bmi-Calculator.jpg",
         projectName: "Bmi-Calculator",
         aboutProject: "",
       },
       {
         githubLink: "https://github.com/GarlicBuns19/Temperature-Converter",
         netlify: "https://temperature-converter-r.netlify.app",
-        image: "https://i.postimg.cc/VN549DQn/Temp-Calculator.png",
+        image: "https://i.postimg.cc/V6gfww6K/Temp-Calculator.jpg",
         projectName: "Temperature Converter",
         aboutProject: "",
       },
