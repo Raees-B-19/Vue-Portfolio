@@ -65,6 +65,11 @@ export default {
 <style scoped>
 #skills {
   background: #1f1f1f;
+  background: url(https://i.postimg.cc/FKVjYbRx/mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   border: 10px solid #59cbe8;
   color: #e5e5e5;
   scroll-margin: 50px;

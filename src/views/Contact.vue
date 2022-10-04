@@ -1,6 +1,6 @@
 <template>
   <section id="contact">
-    <h1>Contact Me</h1>
+    <h2>Contact Me</h2>
     <div class="container">
       <div class="row">
         <div class="col-md-12" id="form">
@@ -94,7 +94,12 @@
 </template>
 <style scoped>
 #contact{
-  background: #1f1f1f;
+  /* background: #1f1f1f; */
+  background: url(https://i.postimg.cc/FKVjYbRx/mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   scroll-margin: 50px;
   border: 10px solid #59CBE8;
   padding: 10px 0;
@@ -104,9 +109,19 @@
 #contact h1{
   padding: 10px 0;
 }
+#contact input{
+  background: transparent;
+  color: #e5e5e5;
+}
+#contact textarea{
+  background: transparent;
+  color: #e5e5e5;
+}
 #contact #submit{
-  color: #1f1f1f;
-  background-color: #59CBE8;
+  /* color: #1f1f1f; */
+  color: #e5e5e5;
+  /* background-color: #59CBE8; */
+  background-color: transparent;
   border: 3px solid #e5e5e5;
   border-radius: 10px;
   padding: 3px 10px;
@@ -115,6 +130,7 @@
 }
 #contact #submit:hover{
   transform: scale(1.2);
+  border: 3px solid #59CBE8;
 }
 .form-control:focus::placeholder{
     transition: 0.4s ease-in-out;

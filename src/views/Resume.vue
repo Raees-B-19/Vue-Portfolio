@@ -53,7 +53,12 @@ export default {
 </script>
 <style scoped>
 #resume {
-  background: #1f1f1f;
+  /* background: #1f1f1f; */
+  background: url(https://i.postimg.cc/FKVjYbRx/mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #e5e5e5;
   padding: 30px 0;
   border: 10px solid #59cbe8;
