@@ -10,9 +10,9 @@
               v-for="workExperience in skills.experience"
               :key="workExperience"
             >
-              <h2>
+              <h3>
                 {{ workExperience.start }}<span>{{ workExperience.end }}</span>
-              </h2>
+              </h3>
               <p>
                 <span id="studio" v-if="workExperience.studio">{{ workExperience.studio }}</span>
                 <span id="life-choices">{{ workExperience.main }}</span>
@@ -60,7 +60,6 @@ export default {
   scroll-margin: 50px;
 }
 #resume p {
-  text-decoration: underline;
   font-size: 28px;
   padding: 10px 0;
 }

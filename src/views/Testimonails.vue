@@ -52,10 +52,6 @@ export default {
   scroll-margin: 50px;
   padding: 30px 0;
 }
-h1 {
-  /* color: #e5e5e5 !important; */
-  padding: 10px 0;
-}
 #testimonails img {
   /* padding: 10px 0 0 0; */
   margin: 10px 0 0 0;

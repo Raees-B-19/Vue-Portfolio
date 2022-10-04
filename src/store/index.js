@@ -22,16 +22,16 @@ export default createStore({
             name1: "skills",
           },
           {
-            skill: "Can Work In a Team",
+            skill: "Good Time Management",
           },
           {
-            skill: "Organised",
+            skill: "Can Work In a Team",
           },
           {
             skill: "Easy To Talk To",
           },
           {
-            skill: "Good Time Management",
+            skill: "Organised",
           },
         ],
         experience: [
@@ -56,7 +56,7 @@ export default createStore({
           {
             name: "Self Employed",
             start: "2021 -",
-            end: "2022/11",
+            end: " 2022/11",
             duties: "Building Computers",
           },
           {

@@ -10,13 +10,14 @@
             :key="project"
           >
             <div class="pic">
-              <div class="card m-3 p-3">
+              <div class="card m-3 p-2">
                 <img
                   :src="project.image"
                   class="card-img-top img-fluid"
-                  alt="..."
+                  :alt="project.projectName"
                 />
                 <div class="overlay">
+                  <h3>{{project.projectName}}</h3>
                   <button class="btn-links">
                     <a :href="project.githubLink" target="_blank">Github</a>
                   </button>
@@ -26,8 +27,6 @@
                   <button v-if="project.firebase" class="btn-links">
                     <a :href="project.firebase" target="_blank">Firebase</a>
                   </button>
-                  <!-- <i class="bi bi-github"></i>
-                  <i class="bi bi-github"></i> -->
                 </div>
                 <!-- <div class="card-body">
                 <h5 class="card-title">{{ project.projectName }}</h5>
@@ -63,10 +62,13 @@ export default {
   /* background-color: pink; */
   border: 2px solid #e5e5e5;
   border-radius: 30px;
-  /* width: ; */
 }
 #projects h2 {
   padding: 30px 0;
+}
+#projects h3 {
+  font-weight: bold;
+  font-size: 30px;
 }
 #projects img {
   border-radius: 30px;
@@ -103,7 +105,7 @@ export default {
   display: inline-block;
   overflow: hidden;
   font-size: 30px;
-  padding: 160px 0 0 0;
+  padding: 130px 0 0 0;
   border-radius: 30px;
   transition: 0.6s;
   opacity: 0;
@@ -124,8 +126,8 @@ export default {
 }
 .pic .overlay .btn-links {
   padding: 0px 10px;
-  border-radius: 30px;
-  margin: 0 5px;
+  margin: 10px 0 0 5px;
+  border-radius: 20px;
 }
 .pic:hover .overlay {
   opacity: 1;

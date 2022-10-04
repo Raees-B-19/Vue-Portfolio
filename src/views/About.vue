@@ -16,7 +16,7 @@
           <div v-else>No data to display</div>
           <div class="container">
             <div class="row mx-auto">
-              <div class="col-6 col-md-4 col-spacing-edit">
+              <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">LinkedIn</h4>
                 <p>
                   <a
@@ -30,8 +30,8 @@
                   Linkedin Link
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-spacing-edit">
-                <h4 class="card-title">GitHub</h4>
+              <div class="col-6 col-md-6 col-spacing-edit">
+                <h4 class="card-title"> GitHub</h4>
                 <p>
                   <a href="https://github.com/GarlicBuns19" target="_blank"
                     ><ion-icon
@@ -42,47 +42,47 @@
                   Github Link
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-spacing-edit">
+              <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Willing to Relocate</h4>
                 <p>
                   <ion-icon name="airplane-outline" class="icons"></ion-icon> No
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-spacing-edit">
+              <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Contact Number</h4>
                 <p>
                   <ion-icon name="call-outline" class="icons"></ion-icon>
                   0676145637
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-spacing-edit">
+              <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Location</h4>
                 <p>
                   <ion-icon name="location-outline" class="icons"></ion-icon>
                   Cape Town
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-spacing-edit">
+              <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Gender</h4>
                 <p>
                   <ion-icon name="man-outline" class="icons"></ion-icon> Male
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-spacing-edit">
+              <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Date of Birth</h4>
                 <p>
                   <ion-icon name="calendar-outline" class="icons"></ion-icon>
                   26/09/2002
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-spacing-edit">
+              <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Full Name</h4>
                 <p>
                   <ion-icon name="person-outline" class="icons"></ion-icon>
                   Ra'ees Benny
                 </p>
               </div>
-              <div class="col-6 col-md-4 col-spacing-edit">
+              <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Email Address</h4>
                 <p>
                   <ion-icon name="mail-outline" class="icons"></ion-icon>
@@ -137,7 +137,7 @@ export default {
   color: #59cbe8;
 }
 .col-spacing-edit {
-  padding: 20px 0;
+  padding: 5px 0;
 }
 .gitbig {
   text-decoration: none;
