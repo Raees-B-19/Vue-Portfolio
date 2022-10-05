@@ -12,15 +12,14 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="mx-5 mb-3">
-                  <label for="name" class="form-label"
-                    >Name</label
-                  >
+                  <label for="name" class="form-label">Name</label>
                   <input
-                    name="name"
+                    name="Name"
                     type="Name"
                     class="form-control"
                     id="exampleFormControlInput1"
                     placeholder="Enter Your Name"
+                    required
                   />
                 </div>
               </div>
@@ -30,37 +29,39 @@
                     >Email address</label
                   >
                   <input
+                    name="Email"
                     type="email"
                     class="form-control"
                     id="contact-name"
                     placeholder="email@gmail.com"
+                    required
                   />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="mx-5 mb-3">
-                  <label for="subject" class="form-label"
-                    >Subject</label
-                  >
+                  <label for="subject" class="form-label">Subject</label>
                   <input
+                    name="Subject"
                     type="subject"
                     class="form-control"
                     id="contact-subject"
                     placeholder="Subject"
+                    required
                   />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="mx-5 mb-3">
-                  <label for="telephone" class="form-label"
-                    >Telephone</label
-                  >
+                  <label for="telephone" class="form-label">Telephone</label>
                   <input
+                    name="Telephone"
                     type="number"
                     class="form-control"
                     id="contact-telephone"
                     placeholder="000-0000-000"
                     maxlength="10"
+                    required
                   />
                 </div>
               </div>
@@ -71,9 +72,11 @@
                     >Send Me a Message</label
                   >
                   <textarea
+                    name="Message"
                     class="form-control"
                     id="contact-message"
                     rows="3"
+                    required
                   ></textarea>
                 </div>
               </div>
@@ -93,27 +96,27 @@
   </section>
 </template>
 <style scoped>
-#contact{
+#contact {
   /* background: #1f1f1f; */
-  background: rgba(31, 31, 31,.5);
+  background: rgba(31, 31, 31, 0.5);
   scroll-margin: 50px;
-  border: 1px solid #59CBE8;
+  border: 1px solid #59cbe8;
   padding: 10px 0;
   /* height: 77vh; */
   color: #e5e5e5;
 }
-#contact h1{
+#contact h1 {
   padding: 10px 0;
 }
-#contact input{
+#contact input {
   background: transparent;
   color: #e5e5e5;
 }
-#contact textarea{
+#contact textarea {
   background: transparent;
   color: #e5e5e5;
 }
-#contact #submit{
+#contact #submit {
   /* color: #1f1f1f; */
   color: #e5e5e5;
   /* background-color: #59CBE8; */
@@ -122,17 +125,17 @@
   border-radius: 10px;
   padding: 3px 10px;
   font-size: 17px;
-  transition: .7s;
+  transition: 0.7s;
 }
-#contact #submit:hover{
+#contact #submit:hover {
   transform: scale(1.2);
-  border: 3px solid #59CBE8;
+  border: 3px solid #59cbe8;
 }
-.form-control:focus::placeholder{
-    transition: 0.4s ease-in-out;
-    color: transparent;
+.form-control:focus::placeholder {
+  transition: 0.4s ease-in-out;
+  color: transparent;
 }
-.form-control::placeholder{
-    transition: 0.4s ease-in-out;
+.form-control::placeholder {
+  transition: 0.4s ease-in-out;
 }
 </style>

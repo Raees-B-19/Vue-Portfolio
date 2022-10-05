@@ -14,7 +14,9 @@
                 {{ workExperience.start }}<span>{{ workExperience.end }}</span>
               </h3>
               <p id="resume-exp">
-                <span id="studio" v-if="workExperience.studio">{{ workExperience.studio }}</span>
+                <span id="studio" v-if="workExperience.studio">{{
+                  workExperience.studio
+                }}</span>
                 <span id="life-choices">{{ workExperience.main }}</span>
                 {{ workExperience.name }}
               </p>
@@ -28,13 +30,34 @@
               </ul>
             </div>
           </div>
-          <div class="row">
+          <!-- <div class="row">
             <div v-for="soft in skills.softSkills" :key="soft">
               <h2>{{ soft.name }} <span>{{soft.name1}}</span></h2>
               <div class="col-md-12">
                 <h4>{{ soft.skill }}</h4>
               </div>
             </div>
+          </div> -->
+        </div>
+        <div class="row mx-auto h-4">
+          <center>
+            <h2>Soft <span>skill</span></h2>
+          </center>
+          <div class="col-md-3">
+            <h4>Good Time Management</h4>
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <div class="col-md-3">
+            <h4>Can Work In a Team</h4>
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+          <div class="col-md-3">
+            <h4>Easy To Talk To</h4>
+            <i class="fa-solid fa-person"></i>
+          </div>
+          <div class="col-md-3">
+            <h4>Organised</h4>
+            <i class="fa-solid fa-laptop-file"></i>
           </div>
         </div>
       </div>
@@ -54,13 +77,13 @@ export default {
 <style scoped>
 #resume {
   /* background: #1f1f1f; */
-  background: rgba(31, 31, 31,.5);
+  background: rgba(31, 31, 31, 0.5);
   color: #e5e5e5;
   padding: 30px 0;
   border: 1px solid #59cbe8;
   scroll-margin: 50px;
 }
-#resume #resume-exp{
+#resume #resume-exp {
   font-weight: bold;
 }
 #resume p {
@@ -106,7 +129,25 @@ export default {
   border-radius: 50%;
   background: #1f1f1f !important;
 }
-#resumeDiv{
+#resumeDiv {
   padding: 0 2.3%;
+}
+.h-4 h2 {
+  padding: 14px 0;
+}
+.h-4 i {
+  font-size: 25px;
+  padding: 10px 0;
+  color: #59cbe8;
+  animation: hover 1.7s infinite alternate;
+}
+/* Hover effect */
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
 }
 </style>

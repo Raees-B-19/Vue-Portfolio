@@ -116,10 +116,14 @@ export default {
   padding: 0px 10px;
   border-radius: 30px;
   margin: 0 5px;
-  background: #1f1f1f;
+  /* background: #1f1f1f; */
+  background-color: rgba(0, 0, 0,.6);
   transition: 0.7s;
+  border: 1.5px solid #e5e5e5
 }
 .pic .overlay .btn-links a{
+  /* font-weight: bold; */
+  font-family: 'Asap', sans-serif;
   text-decoration: none;
   color: #59cbe8;
 }
