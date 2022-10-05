@@ -66,7 +66,10 @@
 </script>
 <style scoped>
 nav {
-  background: #1f1f1f;
+  /* background: #1f1f1f; */
+  background: rgba(31, 31, 31,.86);
+  border-left: 1px solid #59cbe8;
+  border-right: 1px solid #59cbe8;
   padding: 5px;
   width: 100vw;
 }

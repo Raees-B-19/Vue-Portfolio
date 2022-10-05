@@ -52,7 +52,7 @@ export default {
 <style scoped>
 #projects {
   /* background: #1f1f1f; */
-  background: rgba(31, 31, 31,.5);
+  background: rgba(31, 31, 31,.6);
   color: #e5e5e5;
   padding: 0 0 10px 0;
   border: 1px solid #59cbe8;
@@ -60,8 +60,9 @@ export default {
   scroll-margin: 50px;
 }
 #projects .card {
-  /* background-color: pink; */
-  border: 2px solid #e5e5e5;
+  background-color: transparent;
+  /* border: 2px solid #e5e5e5; */
+  border: 2px solid #59cbe8;
   border-radius: 30px;
 }
 #projects h2 {
@@ -69,30 +70,30 @@ export default {
 }
 #projects h3 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 33px;
+}
+#projects .card:hover img {
+  filter: grayscale(0%);
 }
 #projects img {
+  transition: all 0.7s ease-in-out;
   border-radius: 30px;
-  border: 7px solid #1f1f1f;
+  /* border: 7px solid #1f1f1f; */
   height: 350px;
   object-fit: cover;
-}
-#projects p {
-  max-height: 70px;
-  overflow-y: auto;
 }
 .pic {
   width: auto;
 }
 
 .pic img {
+  filter: grayscale(100%);
   border: 2px solid #e5e5e5;
   position: relative;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 /*Overlay*/
 .pic .overlay {
   position: absolute;
@@ -101,7 +102,7 @@ export default {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, .4);
   color: #e5e5e5;
   display: inline-block;
   overflow: hidden;

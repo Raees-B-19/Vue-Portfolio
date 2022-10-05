@@ -52,7 +52,7 @@ export default {
   color: #2c3e50;
 }
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 3px;
   background-color: #59cbe8;
   border-radius: 10px;
 }

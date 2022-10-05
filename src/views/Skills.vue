@@ -2,7 +2,7 @@
   <section id="skills">
     <div v-if="resume">
       <div class="container">
-        <div class="row mx-auto ">
+        <div class="row mx-auto">
           <h2><span>Technical</span> Skills</h2>
           <div v-for="skills in resume" :key="skills">
             <div class="row">
@@ -21,7 +21,7 @@
             <div class="row mx-auto justify-content-center">
               <div class="col-md-3">
                 <a href="https://github.com/GarlicBuns19" target="_blank">
-                  <i class="bi bi-github icons git-icon"></i>
+                  <i class="fa-brands fa-github icons git-icon"></i>
                 </a>
                 <p>Github</p>
               </div>
@@ -30,19 +30,19 @@
                 <p>Netlify</p>
               </div>
               <div class="col-md-3">
-                <ion-icon name="logo-firebase" class="icons"></ion-icon>
+                <ion-icon name="logo-firebase" class="icons fire-icon"></ion-icon>
                 <p>Firebase</p>
               </div>
               <div class="col-md-3">
-                <i class="fa-brands fa-windows icons"></i>
+                <i class="fa-brands fa-windows icons window-icon"></i>
                 <p>Windows</p>
               </div>
               <div class="col-md-3">
-                <i class='bx bxl-heroku icons'></i>
+                <i class="bx bxl-heroku icons"></i>
                 <p>Heroku</p>
               </div>
               <div class="col-md-3">
-                <i class='bx bxl-figma icons' ></i>
+                <i class="bx bxl-figma icons"></i>
                 <p>Figma</p>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default {
 <style scoped>
 #skills {
   /* background: #1f1f1f; */
-  background: rgba(31, 31, 31,.5);
+  background: rgba(31, 31, 31, 0.5);
   border: 1px solid #59cbe8;
   color: #e5e5e5;
   scroll-margin: 50px;
@@ -84,6 +84,7 @@ export default {
   color: #59cbe8;
   margin: 10px;
   font-size: 80px;
+  animation: hover 1.7s infinite alternate;
 }
 .git-icon {
   transition: 0.7s;
@@ -96,5 +97,20 @@ export default {
 }
 .netlify-icon:hover {
   color: #e5e5e5;
+}
+.window-icon{
+  padding: 1px 0 0 0;
+}
+.fire-icon{
+  font-size: 74px;
+}
+/* Hover effect */
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 </style>
