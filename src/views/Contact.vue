@@ -99,11 +99,11 @@
 #contact {
   /* background: #1f1f1f; */
   background: rgba(31, 31, 31, 0.5);
-  scroll-margin: 50px;
+  color: #e5e5e5;
   border: 1px solid #59cbe8;
   padding: 10px 0;
   /* height: 77vh; */
-  color: #e5e5e5;
+  /* scroll-margin: 60px; */
 }
 #contact h1 {
   padding: 10px 0;
@@ -116,10 +116,10 @@
   background: transparent;
   color: #e5e5e5;
 }
-#contact #submit {
-  /* color: #1f1f1f; */
+/* #contact #submit {
+  color: #1f1f1f;
   color: #e5e5e5;
-  /* background-color: #59CBE8; */
+  background-color: #59CBE8;
   background-color: transparent;
   border: 3px solid #e5e5e5;
   border-radius: 10px;
@@ -130,12 +130,61 @@
 #contact #submit:hover {
   transform: scale(1.2);
   border: 3px solid #59cbe8;
-}
+} */
 .form-control:focus::placeholder {
   transition: 0.4s ease-in-out;
   color: transparent;
 }
 .form-control::placeholder {
   transition: 0.4s ease-in-out;
+}
+/* Button */
+/* From uiverse.io by @SanketSuryawanshi */
+button {
+  --color: #59cbe8;
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+}
+button::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  top: -7px;
+  left: -7px;
+  z-index: -5;
+  border-top: 3px solid var(--color);
+  border-left: 3px solid var(--color);
+  transition: 0.5s;
+}
+button::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  bottom: -7px;
+  right: -7px;
+  z-index: -5;
+  border-right: 3px solid var(--color);
+  border-bottom: 3px solid var(--color);
+  transition: 0.5s;
+}
+button:hover::before {
+  width: 100%;
+  height: 100%;
+}
+button:hover::after {
+  width: 100%;
+  height: 100%;
+}
+button {
+  padding: 0.7em 2em;
+  background: rgba(31, 31, 31, 0.5);
+  color: #fff;
+  border: none;
+  font-family: 'Lora', serif;
 }
 </style>

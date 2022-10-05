@@ -50,7 +50,7 @@ export default {
   color: #e5e5e5;
   height: max-content;
   border: 1px solid #59cbe8;
-  scroll-margin: 50px;
+  scroll-margin: 56px;
   padding: 30px 0;
 }
 #testimonails img {

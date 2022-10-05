@@ -117,7 +117,7 @@ export default {
   height: max-content;
   background-attachment: fixed;
   padding: 30px 0;
-  scroll-margin: 50px;
+  scroll-margin: 56px;
   border: 1px solid #59cbe8;
 }
 #about h2 {

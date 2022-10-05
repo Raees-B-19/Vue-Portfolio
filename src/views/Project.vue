@@ -57,7 +57,7 @@ export default {
   padding: 0 0 10px 0;
   border: 1px solid #59cbe8;
   /* height: 100vh; */
-  scroll-margin: 50px;
+  scroll-margin: 56px;
 }
 #projects .card {
   background-color: transparent;

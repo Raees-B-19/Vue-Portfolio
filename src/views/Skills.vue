@@ -68,7 +68,7 @@ export default {
   background: rgba(31, 31, 31, 0.5);
   border: 1px solid #59cbe8;
   color: #e5e5e5;
-  scroll-margin: 50px;
+  scroll-margin: 56px;
 }
 #skills h2 {
   padding: 30px 0;
@@ -110,7 +110,7 @@ export default {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
   }
 }
 </style>

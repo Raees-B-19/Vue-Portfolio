@@ -81,7 +81,7 @@ export default {
   color: #e5e5e5;
   padding: 30px 0;
   border: 1px solid #59cbe8;
-  scroll-margin: 50px;
+  scroll-margin: 56px;
 }
 #resume #resume-exp {
   font-weight: bold;
@@ -139,7 +139,7 @@ export default {
   font-size: 25px;
   padding: 10px 0;
   color: #59cbe8;
-  animation: hover 1.7s infinite alternate;
+  animation: hover 1.2s infinite alternate;
 }
 /* Hover effect */
 @keyframes hover {
@@ -147,7 +147,7 @@ export default {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-5px);
+    transform: translateY(-7px);
   }
 }
 </style>
