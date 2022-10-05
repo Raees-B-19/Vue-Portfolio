@@ -6,6 +6,8 @@
       <div class="row">
         <div class="col-12 col-md-6">
           <img :src="this.$store.state.portfolioUrl" alt="" class="img-fluid" />
+          <br>
+          <!-- <button id="cv">Download my CV</button> -->
         </div>
         <div class="col-12 col-md-6">
           <div v-if="about">
@@ -48,18 +50,18 @@
                   <ion-icon name="airplane-outline" class="icons"></ion-icon> No
                 </p>
               </div>
-              <div class="col-6 col-md-6 col-spacing-edit">
+              <!-- <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Contact Number</h4>
                 <p>
                   <ion-icon name="call-outline" class="icons"></ion-icon>
-                  0676145637
+                  067-6145-637
                 </p>
-              </div>
+              </div> -->
               <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Location</h4>
                 <p>
                   <ion-icon name="location-outline" class="icons"></ion-icon>
-                  Cape Town
+                  Cape Town Penlyn Estate
                 </p>
               </div>
               <div class="col-6 col-md-6 col-spacing-edit">
@@ -75,20 +77,20 @@
                   26/09/2002
                 </p>
               </div>
-              <div class="col-6 col-md-6 col-spacing-edit">
+              <!-- <div class="col-6 col-md-6 col-spacing-edit">
                 <h4 class="card-title">Full Name</h4>
                 <p>
                   <ion-icon name="person-outline" class="icons"></ion-icon>
                   Ra'ees Benny
                 </p>
-              </div>
-              <div class="col-12 col-md-12 col-spacing-edit">
+              </div> -->
+              <!-- <div class="col-12 col-md-12 col-spacing-edit">
                 <h4 class="card-title">Email Address</h4>
                 <p>
                   <ion-icon name="mail-outline" class="icons"></ion-icon>
                   raeespbenny@gmail.com
                 </p>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -112,7 +114,6 @@ export default {
 <style scoped>
 #about {
   background: rgba(31, 31, 31,.7);
-  /* background: var(--background-color); */
   color: #e5e5e5;
   height: max-content;
   background-attachment: fixed;
@@ -131,6 +132,7 @@ export default {
   font-size: 19.6px;
 }
 #about .about-data {
+  text-align: left;
   font-size: 20px;
 }
 #about span {
@@ -153,11 +155,60 @@ export default {
 }
 #about img {
   width: 300px;
-  height: 500px;
+  height: 480px;
   object-fit: cover;
   /* object-position: 0 -60px; */
-  object-position: -35.8px 0px;
+  object-position: -21px 0px;
   border-radius: 30px;
-  border: 7px solid #e5e5e5;
+  border: 2px solid #59cbe8;
+}
+/* Button */
+/* From uiverse.io by @SanketSuryawanshi */
+#cv {
+  --color: #59cbe8;
+  position: relative;
+  z-index: 1;
+  margin: 33px 0 33px 0;
+}
+#cv::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  top: -7px;
+  left: -7px;
+  z-index: -5;
+  border-top: 3px solid var(--color);
+  border-left: 3px solid var(--color);
+  transition: 0.5s;
+}
+#cv::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  bottom: -7px;
+  right: -7px;
+  z-index: -5;
+  border-right: 3px solid var(--color);
+  border-bottom: 3px solid var(--color);
+  transition: 0.5s;
+}
+#cv:hover::before {
+  width: 100%;
+  height: 100%;
+}
+#cv:hover::after {
+  width: 100%;
+  height: 100%;
+}
+#cv {
+  padding: 0.7em 2em;
+  background: rgba(31, 31, 31, 0.5);
+  color: #fff;
+  border: none;
+  font-family: 'Lora', serif;
 }
 </style>

@@ -2,15 +2,31 @@
   <section id="contact">
     <h2>Contact Me</h2>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12" id="form">
+      <div class="row mx-auto">
+        <div class="col-md-6 contact-center">
+          <div class="col-12 col-md-12 col-spacing-edit">
+            <h4 class="card-title">Contact Number</h4>
+            <p>
+              <ion-icon name="call-outline" class="icons"></ion-icon>
+              067-6145-637
+            </p>
+          </div>
+          <div class="col-12 col-md-12 col-spacing-edit">
+            <h4 class="card-title">Email Address</h4>
+            <p>
+              <ion-icon name="mail-outline" class="icons"></ion-icon>
+              raeespbenny@gmail.com
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6" id="form">
           <form
             action="https://formspree.io/f/meqnyaeg"
             method="POST"
             target="_blank"
           >
-            <div class="row">
-              <div class="col-md-6">
+            <div class="row mx-auto">
+              <div class="col-md-12">
                 <div class="mx-5 mb-3">
                   <label for="name" class="form-label">Name</label>
                   <input
@@ -23,7 +39,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="mx-5 mb-3">
                   <label for="exampleFormControlInput1" class="form-label"
                     >Email address</label
@@ -38,7 +54,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="mx-5 mb-3">
                   <label for="subject" class="form-label">Subject</label>
                   <input
@@ -51,7 +67,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="mx-5 mb-3">
                   <label for="telephone" class="form-label">Telephone</label>
                   <input
@@ -65,8 +81,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-3"></div>
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="mx-5 mb-3">
                   <label for="message" class="form-label"
                     >Send Me a Message</label
@@ -80,17 +95,12 @@
                   ></textarea>
                 </div>
               </div>
-              <div class="col-md-3"></div>
               <div class="col-md-12">
                 <button type="submit" id="submit">Submit</button>
               </div>
             </div>
           </form>
         </div>
-        <!-- <div class="col-md-6" id="icons">
-          <i class="bi bi-github"></i>
-          <i class="bi bi-linkedin"></i>
-        </div> -->
       </div>
     </div>
   </section>
@@ -98,12 +108,10 @@
 <style scoped>
 #contact {
   /* background: #1f1f1f; */
-  background: rgba(31, 31, 31, 0.5);
+  background: rgba(31, 31, 31, 0.7);
   color: #e5e5e5;
   border: 1px solid #59cbe8;
   padding: 10px 0;
-  /* height: 77vh; */
-  /* scroll-margin: 60px; */
 }
 #contact h1 {
   padding: 10px 0;
@@ -138,15 +146,21 @@
 .form-control::placeholder {
   transition: 0.4s ease-in-out;
 }
+.icons {
+  color: #59cbe8;
+}
+.col-spacing-edit {
+  padding: 5px 0px;
+}
 /* Button */
 /* From uiverse.io by @SanketSuryawanshi */
-button {
+#contact #submit {
   --color: #59cbe8;
   position: relative;
   z-index: 1;
   margin: 10px;
 }
-button::before {
+#contact #submit::before {
   content: "";
   position: absolute;
   width: 30px;
@@ -159,7 +173,7 @@ button::before {
   border-left: 3px solid var(--color);
   transition: 0.5s;
 }
-button::after {
+#contact #submit::after {
   content: "";
   position: absolute;
   width: 30px;
@@ -172,19 +186,27 @@ button::after {
   border-bottom: 3px solid var(--color);
   transition: 0.5s;
 }
-button:hover::before {
+#contact #submit:hover::before {
   width: 100%;
   height: 100%;
 }
-button:hover::after {
+#contact #submit:hover::after {
   width: 100%;
   height: 100%;
 }
-button {
+#contact #submit {
   padding: 0.7em 2em;
-  background: rgba(31, 31, 31, .7);
+  background: rgba(31, 31, 31, 0.7);
   color: #fff;
   border: none;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
+}
+#contact .contact-center {
+  padding: 150px 0 0 0;
+}
+@media screen and (max-width: 759px) {
+  #contact .contact-center {
+    padding: 10px 0 0 0;
+  }
 }
 </style>

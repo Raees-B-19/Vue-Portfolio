@@ -52,12 +52,11 @@ export default {
   color: #2c3e50;
 }
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 8px;
   background-color: #59cbe8;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-track {
-  /* box-shadow: inset 0 0 5px grey; */
   border-radius: 30px;
   width: 5px;
 }
