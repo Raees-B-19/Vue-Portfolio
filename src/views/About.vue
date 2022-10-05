@@ -82,7 +82,7 @@
                   Ra'ees Benny
                 </p>
               </div>
-              <div class="col-6 col-md-6 col-spacing-edit">
+              <div class="col-12 col-md-12 col-spacing-edit">
                 <h4 class="card-title">Email Address</h4>
                 <p>
                   <ion-icon name="mail-outline" class="icons"></ion-icon>
@@ -111,14 +111,14 @@ export default {
 
 <style scoped>
 #about {
-  background: #1f1f1f;
+  background: rgba(31, 31, 31,.5);
   /* background: var(--background-color); */
   color: #e5e5e5;
   height: max-content;
   background-attachment: fixed;
   padding: 30px 0;
   scroll-margin: 50px;
-  border: 10px solid #59cbe8;
+  border: 1px solid #59cbe8;
 }
 #about h2 {
   padding: 0px 0 20px 0;

@@ -14,14 +14,9 @@
 <style scoped>
 #home {
   /* background: #1f1f1f; */
-  background: url(https://i.postimg.cc/FKVjYbRx/mountain.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   color: #59cbe8;
   height: 100%;
-  border: 10px solid #59cbe8;
+  border: 1px solid #59cbe8;
 }
 #home h1 {
   font-weight: bold;

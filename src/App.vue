@@ -40,6 +40,11 @@ export default {
 
 <style>
 #app {
+  background: url(https://i.postimg.cc/FKVjYbRx/mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

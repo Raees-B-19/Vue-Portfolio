@@ -51,10 +51,11 @@ export default {
 </script>
 <style scoped>
 #projects {
-  background: #1f1f1f;
+  /* background: #1f1f1f; */
+  background: rgba(31, 31, 31,.5);
   color: #e5e5e5;
   padding: 0 0 10px 0;
-  border: 10px solid #59cbe8;
+  border: 1px solid #59cbe8;
   /* height: 100vh; */
   scroll-margin: 50px;
 }

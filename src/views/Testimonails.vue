@@ -45,10 +45,11 @@ export default {
 
 <style scoped>
 #testimonails {
-  background: #1f1f1f;
+  /* background: #1f1f1f; */
+  background: rgba(31, 31, 31,.5);
   color: #e5e5e5;
   height: max-content;
-  border: 10px solid #59cbe8;
+  border: 1px solid #59cbe8;
   scroll-margin: 50px;
   padding: 30px 0;
 }

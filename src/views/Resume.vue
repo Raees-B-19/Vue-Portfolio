@@ -13,7 +13,7 @@
               <h3>
                 {{ workExperience.start }}<span>{{ workExperience.end }}</span>
               </h3>
-              <p>
+              <p id="resume-exp">
                 <span id="studio" v-if="workExperience.studio">{{ workExperience.studio }}</span>
                 <span id="life-choices">{{ workExperience.main }}</span>
                 {{ workExperience.name }}
@@ -54,15 +54,14 @@ export default {
 <style scoped>
 #resume {
   /* background: #1f1f1f; */
-  background: url(https://i.postimg.cc/FKVjYbRx/mountain.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background: rgba(31, 31, 31,.5);
   color: #e5e5e5;
   padding: 30px 0;
-  border: 10px solid #59cbe8;
+  border: 1px solid #59cbe8;
   scroll-margin: 50px;
+}
+#resume #resume-exp{
+  font-weight: bold;
 }
 #resume p {
   font-size: 28px;
@@ -90,7 +89,7 @@ export default {
   color: #59cbe8;
 }
 .experience-container #life-choices {
-  color: #66ff00;
+  color: #e5e5e5;
 }
 .experience-container ul li {
   list-style: none;

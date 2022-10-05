@@ -95,13 +95,9 @@
 <style scoped>
 #contact{
   /* background: #1f1f1f; */
-  background: url(https://i.postimg.cc/FKVjYbRx/mountain.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background: rgba(31, 31, 31,.5);
   scroll-margin: 50px;
-  border: 10px solid #59CBE8;
+  border: 1px solid #59CBE8;
   padding: 10px 0;
   /* height: 77vh; */
   color: #e5e5e5;
