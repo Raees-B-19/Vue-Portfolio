@@ -111,7 +111,7 @@ export default {
 
 <style scoped>
 #about {
-  background: rgba(31, 31, 31,.5);
+  background: rgba(31, 31, 31,.7);
   /* background: var(--background-color); */
   color: #e5e5e5;
   height: max-content;
@@ -137,6 +137,7 @@ export default {
   color: #59cbe8;
 }
 .col-spacing-edit {
+  text-align: left;
   padding: 5px 0;
 }
 .gitbig {

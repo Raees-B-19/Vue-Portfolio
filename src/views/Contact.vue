@@ -182,7 +182,7 @@ button:hover::after {
 }
 button {
   padding: 0.7em 2em;
-  background: rgba(31, 31, 31, 0.5);
+  background: rgba(31, 31, 31, .7);
   color: #fff;
   border: none;
   font-family: 'Lora', serif;

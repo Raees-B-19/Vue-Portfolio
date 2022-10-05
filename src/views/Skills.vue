@@ -65,7 +65,7 @@ export default {
 <style scoped>
 #skills {
   /* background: #1f1f1f; */
-  background: rgba(31, 31, 31, 0.5);
+  background: rgba(31, 31, 31, .7);
   border: 1px solid #59cbe8;
   color: #e5e5e5;
   scroll-margin: 56px;

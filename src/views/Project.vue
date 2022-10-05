@@ -52,7 +52,7 @@ export default {
 <style scoped>
 #projects {
   /* background: #1f1f1f; */
-  background: rgba(31, 31, 31,.6);
+  background: rgba(31, 31, 31,.7);
   color: #e5e5e5;
   padding: 0 0 10px 0;
   border: 1px solid #59cbe8;
@@ -88,7 +88,7 @@ export default {
 
 .pic img {
   filter: grayscale(100%);
-  border: 2px solid #e5e5e5;
+  /* border: 2px solid #e5e5e5; */
   position: relative;
   height: 100%;
   width: 100%;

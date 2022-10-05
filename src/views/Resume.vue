@@ -44,20 +44,20 @@
             <h2>Soft <span>skill</span></h2>
           </center>
           <div class="col-md-3">
-            <h4>Good Time Management</h4>
             <i class="fa-regular fa-clock"></i>
+            <h4>Good Time Management</h4>
           </div>
           <div class="col-md-3">
-            <h4>Can Work In a Team</h4>
             <i class="fa-solid fa-people-group"></i>
+            <h4>Can Work In a Team</h4>
           </div>
           <div class="col-md-3">
-            <h4>Easy To Talk To</h4>
             <i class="fa-solid fa-person"></i>
+            <h4>Easy To Talk To</h4>
           </div>
           <div class="col-md-3">
-            <h4>Organised</h4>
             <i class="fa-solid fa-laptop-file"></i>
+            <h4>Organised</h4>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ export default {
 <style scoped>
 #resume {
   /* background: #1f1f1f; */
-  background: rgba(31, 31, 31, 0.5);
+  background: rgba(31, 31, 31, .7);
   color: #e5e5e5;
   padding: 30px 0;
   border: 1px solid #59cbe8;
