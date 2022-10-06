@@ -2,7 +2,6 @@
   <section id="contact">
     <h2>Contact Me</h2>
     <h2>Contact Me</h2>
-    <h2>Contact Me</h2>
     <div class="container">
       <div class="row mx-auto">
         <div class="col-md-6 contact-center">
